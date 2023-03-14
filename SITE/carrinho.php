@@ -14,7 +14,8 @@
     
     <a href="index.php"><img src="../imagens/conteudo/LogoODCt.png" class="logo"></a>
     
-        <nav>
+    <nav>
+            <li><a class="menu" href="index.php">Início</a></li>
             <li><a class="menu" href="sobre.php">Sobre</a></li>
             <li><a class="menu" href="../PGMS/cliente/login.php">Conta</a></li>
             <li><a class="menu" href="carrinho.php">Carrinho</a></li>
@@ -23,7 +24,6 @@
     </header>
         <nav>
             <p class="banner">
-                <li><a class="menuhorizontal" href="index.php">Início</a></li>
             </p>
         </nav>
         <br><br><br>

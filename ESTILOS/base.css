@@ -6,6 +6,10 @@ body, ul, li, p{
     font-family: Verdana,sans-serif;
 }
 
+nav{
+    display: flex;
+}
+
 a{
     text-decoration: none;
     color: #000000;
@@ -29,14 +33,14 @@ a.menuhorizontal{
 }
 
 .logo {
-    width: 350px;
+    width: 250px;
     margin: 0px center;
 }
 
 
 h1{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .header{
@@ -45,13 +49,20 @@ h1{
     background-position: left;
     background-repeat: no-repeat;
     background-size: 1000PX, cover;
-    height: 90px;
+    height: 70px;
     display: block;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center ;
     padding: 20px;
+}
+
+.ofertas{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    margin-left: 3vw;
+    font-size: 1.5rem;
 }
 
 .menu{
@@ -82,13 +93,24 @@ h1{
 .flex{
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 70vw;
     margin: 0 auto;
 }
 
 .flex > div {
     flex: 1 1 200px;
     margin: 5px;
+    margin-left: 50px;
+}
+
+.inicio{
+    display: flex;
+}
+
+.icone_prod{
+    border: 2px solid #024e1b;
+    border-radius: 6%;
+    box-shadow: 0 5px 5px 0;
 }
 
 .produto{
@@ -98,13 +120,28 @@ h1{
     height: 5cm;
 }
 
-.flexmenu {
+.img_prod{
     display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 40px;
+}
+
+.produto_desc{
+    border-top: 0.5px solid black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blanchedalmond;
+    border-end-start-radius: 15%;
+    border-end-end-radius: 15%;
+}
+
+.flexmenu {
     flex-wrap: wrap;
     max-width: 300px;
     margin: 0px left ;
 
-    
     padding: 5px;
     width: 7cm;
     position: left;
@@ -133,4 +170,8 @@ li a:hover {
 
 .link{
     color: blue;
+}
+
+h1.footer{
+    color: #f1daaf;
 }

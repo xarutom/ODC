@@ -49,13 +49,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ODC | Orgânicos de Casa</title>
     <link rel="icon" type="image/x-icon" href="..\..\imagens\conteudo\faviconODCt.ico">
-    <link rel="stylesheet" href="..\..\estilos\base.css">
-    <link rel="stylesheet" href="..\..\estilos\conta.css">
+    <link rel="stylesheet" href="../../ESTILOS/base.css">
+    <link rel="stylesheet" href="../../ESTILOS/conta.css">
     </head>
     <style>
-        form { border: 5px solid #024e1b; border-radius: 15px; float: left; padding: 12px; margin-left: 500px; margin-top: 50px; font: 16px; font-family: Poppin, Verdana, sans-serif; color: #025e1d;}
-        form input{ padding: 4px; width: 500px; display:rgb(3, 212, 177); }
-        form .btn{ width: 200px; cursor:pointer; font-size: 18px;}
+        form { border: 5px solid #024e1b; border-radius: 15px; float: left; padding: 12px; margin-left: 30.5rem; margin-top: 10px; font: 15px; font-family: Arial, Helvetica, sans-serif; color: #025e1d;text-align: center; display: block; padding: 1rem;}
+        form input{ padding: 4px; display:rgb(3, 212, 177); }
+        form .btn{cursor:pointer; font-size: 14px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
     </style>
 <body>
     <header class="header">
@@ -63,6 +63,7 @@
     <a href="../../site/index.php"><img src="../../imagens/conteudo/LogoODCt.png" class="logo"></a>
     
         <nav>
+            <li><a class="menu" href="../../SITE/index.php">Início</a></li>
             <li><a class="menu" href="../../SITE/sobre.php">Sobre</a></li>
             <li><a class="menu" href="../../PGMS/cliente/login.php">Conta</a></li>
             <li><a class="menu" href="../../SITE/carrinho.php">Carrinho</a></li>
@@ -71,22 +72,22 @@
     </header>
         <nav>
             <p class="banner">
-                <li><a class="menuhorizontal" href="../../SITE/index.php">Início</a></li>
             </p><br>
         </nav><br>
-        <h1>Olá visitante!</h1>            
+        <h1 class="h1">Olá visitante!</h1>            
         <?php 
             if(isset($erro))
                 foreach($erro as $msg){
                     echo "<script>alert('$msg');</script>";
             }
         ?>
-        <div>
-            <form action="" method="post">
-                <p>&nbsp;&nbsp;&nbsp;Acesse sua conta<br> <br>
+            <div>
+                <form action="" method="post" class="formulario">
+                    <style href="/ESTILOS/conta.css"></style>
+                    <p>&nbsp;&nbsp;&nbsp;Acesse sua conta<br> <br>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-MAIL<br>&nbsp;&nbsp;&nbsp;<input value="<?php if(isset($_SESSION))echo $_SESSION['email'] ?>" name="email" placeholder="" type="text"></p><br>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SENHA<br>&nbsp;&nbsp;&nbsp;<input name="senha" type="password" ></p><br>
-                <p>&nbsp;&nbsp;&nbsp;<input value="Entrar" type="submit"></p>
+                <p>&nbsp;&nbsp;&nbsp;<input value="Entrar" type="submit" class="btn"></p>
                 <p>&nbsp;&nbsp;&nbsp;<a href="recuperaSenhaCliente.php">Esqueci minha senha</a></p><br><br>
                 <br>
                 &nbsp;&nbsp;Não tem uma conta? <a href="cadastraCliente.php">CADASTRE-SE!</a>
