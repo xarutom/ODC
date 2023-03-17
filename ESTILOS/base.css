@@ -6,6 +6,10 @@ body, ul, li, p{
     font-family: Verdana,sans-serif;
 }
 
+body{
+    background-color: aliceblue;
+}
+
 nav{
     display: flex;
 }
@@ -111,6 +115,7 @@ h1{
     border: 2px solid #024e1b;
     border-radius: 6%;
     box-shadow: 0 5px 5px 0;
+    background-color: white;
 }
 
 .produto{
@@ -138,31 +143,56 @@ h1{
 }
 
 .flexmenu {
+    margin: 2.5vh 0 2vh 0;
     flex-wrap: wrap;
     max-width: 300px;
     margin: 0px left ;
-
+    border-right: 1px solid #000;
     padding: 5px;
     width: 7cm;
     position: left;
 }
 
 .menuvertical{
-    display: grid;
     color: #000000;
     list-style-type: none;
     margin: 5px;
     padding: 5px;
     width: 6.4cm;
-    background-color:#f1daaf;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
+    position: relative;
+    font-family: monospace;
 }
 
-li a:hover {
-    background-color: #13a568;
+.menuvertical::after{
+    content: " ";
+    height: 1px;
+    width: 0%;
+    background-color: rgb(10, 223, 134);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.menuvertical:hover{
+    color: #40dfbc;
+    text-shadow: none;
+}
+
+.menuvertical:hover::after{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.column{
+ text-align: center;
+ margin-top: 5vh;
+}
+
+li a:hover{
     color: white;
     text-shadow: 0 0 8px;
     transition: 0.4s;

@@ -20,10 +20,10 @@
     <a href="index.php"><img src="../imagens/conteudo/LogoODCt.png" class="logo"></a>
     
     <nav>
-            <li><a class="menu" href="index.php">Início</a></li>
-            <li><a class="menu" href="sobre.php">Sobre</a></li>
-            <li><a class="menu" href="../PGMS/cliente/login.php">Conta</a></li>
-            <li><a class="menu" href="carrinho.php">Carrinho</a></li>
+            <li class="pages"><a class="menu" href="index.php">Início</a></li>
+            <li class="pages"><a class="menu" href="sobre.php">Sobre</a></li>
+            <li class="pages"><a class="menu" href="../PGMS/cliente/login.php">Conta</a></li>
+            <li class="pages"><a class="menu" href="carrinho.php">Carrinho</a></li>
             
         </nav>
     </header>
@@ -36,10 +36,10 @@
                 <section class="flexmenu">
                     <aside>
                         <ul>
-                            <li><a class="menuvertical" href="index.php">Todos os produtos</a></li>
-                            <li><a class="menuvertical" href="ftfrutas.php">Frutas</a></li>
-                            <li><a class="menuvertical" href="ftlegumes.php">Legumes</a></li>
-                            <li><a class="menuvertical" href="ftverduras.php">Verduras</a></li>
+                            <li class="column"><a class="menuvertical" href="index.php">Todos os produtos</a></li>
+                            <li class="column"><a class="menuvertical" href="ftfrutas.php">Frutas</a></li>
+                            <li class="column"><a class="menuvertical" href="ftlegumes.php">Legumes</a></li>
+                            <li class="column"><a class="menuvertical" href="ftverduras.php">Verduras</a></li>
                         </ul>
 
                     </aside>
@@ -47,6 +47,7 @@
 <section>
     <div class="titulo_prod">
         <h1 class="ofertas">Ofertas Imperdíveis</h1>
+        <img src="" alt="">
     </div>
     <div>
         <section class="flex">
