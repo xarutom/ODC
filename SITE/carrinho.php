@@ -32,6 +32,7 @@
         <h1>Entre com sua conta para acessar o carrinho de compras.</h1>
         
         
+<!-- <br>
 <br>
 <br>
 <br>
@@ -40,7 +41,6 @@
 <br>
 <br>
 <br>
-<br>
-<br>
+<br> -->
 </body>
 </html>
