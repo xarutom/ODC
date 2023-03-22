@@ -3,9 +3,12 @@
     $consulta = "SELECT * FROM produto WHERE categoria = categoria" ;
     $con = mysqli_query($conexao, $consulta) or die .mysqli_error($conexao);
 
-    //while($result = mysqli_fetch_array($con)){
-    //    echo $result['codproduto'];
-    //}
+    // while($result = mysqli_fetch_array($con)){
+    // // echo $result['codproduto'];
+    //    echo '<br>';
+    //    echo $result['descricao'] . $result['quantidade'];
+    // }
+
 ?>
 
 <!DOCTYPE html>
@@ -36,19 +39,41 @@
                 </p>
             </nav>
             <section class="inicio">
-                <form action="<?php echo $_SERVER['PHP_SELF']?>">
+                <form action="#" method="post">
                     <section class="flexmenu">
                         <aside>
+                           
                             <ul>
-                                <li class="column"><button class="menuvertical">Todos os Produtos</button></li>
-                                <li class="column"><button class="menuvertical" id="menor">Frutas</button></li></li>
-                                <li class="column"><button class="menuvertical" id="menor">Legumes</button></li></li>
-                                <li class="column"><button class="menuvertical" id="menor">Verduras</button></li></li>
-                        </ul>
-                    </aside>
+                                <form action="#" method="post">
+                               
+                                    <li class="column">
+                                        <button type="button"  name="todos-os-produtos" class="menuvertical">Todos os Produtos</button>
+                                        <?php 
+                                            //$fruta = $_POST['Fruta'];
+                                            //$sql = 'SELECT * FROM produto WHERE  categoria = '
+                                        ?>
+                                    </li>
+                                    <li class="column">
+
+                                        <button type="button"  name="Fruta" class="menuvertical fruta" id="menor">Frutas</button>
+                                        <?php 
+                                        //    $fruta = $_POST['Fruta'];
+                                        //    $sql = "SELECT * FROM produto WHERE  categoria = $fruta";
+                                        //    $con = mysqli_query($conexao, $sql)
+                                        ?>
+                                    </li>
+                                    <li class="column">
+                                        <button type="button"  name="Legume" class="menuvertical legume" id="menor">Legumes</button>
+                                    </li>
+                                    <li class="column">
+                                        <button type="button"  name="Verdura" class="menuvertical verdura" id="menor">Verduras</button>
+                                    </li>
+                                </form>
+                           </ul>
+                        </aside>
+                    </section>
                 </form>
-                </section>
-                <section>
+            <section>
     <div class="titulo_prod">
         <h1 class="ofertas">Ofertas Imperdíveis</h1>
         <img src="" alt="">
@@ -79,5 +104,6 @@
         <footer>
             <h1 class="footer">teste footer</h1>
         </footer>
+        <script language="javascript" src="ODC/js/index.js"></script>
 </body>
 </html>
