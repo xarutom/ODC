@@ -10,13 +10,20 @@ Start
 Tecnologias usada no desenvolvimento✅
 
 🎯 Html 
+<br>
 🎯 Css 
+<br>
 🎯 JavaScript
+<br>
 🎯 PHP  
 🎯 MySql
 
 
+
 Author 😃
+<br>
 🔗Micael william
+<br>
 🔗xarutom
+<br>
 🔗Rafael
