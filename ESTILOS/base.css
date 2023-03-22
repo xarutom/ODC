@@ -158,13 +158,19 @@ h1{
     list-style-type: none;
     margin: 5px;
     padding: 5px;
-    width: 6.4cm;
+    width: 10rem;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: none;
     text-align: center;
     font-weight: bold;
     position: relative;
     font-family: monospace;
+    background-color: transparent;
+    border-style: none;
+}
+
+#menor{
+    width: 5rem;
 }
 
 .menuvertical::after{
