@@ -1,7 +1,11 @@
 <?php
     include("../BD/conexao.php");
-    $consulta = "SELECT * FROM produto";
+    $consulta = "SELECT * FROM produto WHERE categoria = categoria" ;
     $con = mysqli_query($conexao, $consulta) or die .mysqli_error($conexao);
+
+    //while($result = mysqli_fetch_array($con)){
+    //    echo $result['codproduto'];
+    //}
 ?>
 
 <!DOCTYPE html>
@@ -32,19 +36,19 @@
                 </p>
             </nav>
             <section class="inicio">
-                
-                <section class="flexmenu">
-                    <aside>
-                        <ul>
-                            <li class="column"><a class="menuvertical" href="index.php">Todos os produtos</a></li>
-                            <li class="column"><a class="menuvertical" href="ftfrutas.php">Frutas</a></li>
-                            <li class="column"><a class="menuvertical" href="ftlegumes.php">Legumes</a></li>
-                            <li class="column"><a class="menuvertical" href="ftverduras.php">Verduras</a></li>
+                <form action="<?php echo $_SERVER['PHP_SELF']?>">
+                    <section class="flexmenu">
+                        <aside>
+                            <ul>
+                                <li class="column"><button class="menuvertical">Todos os Produtos</button></li>
+                                <li class="column"><button class="menuvertical" id="menor">Frutas</button></li></li>
+                                <li class="column"><button class="menuvertical" id="menor">Legumes</button></li></li>
+                                <li class="column"><button class="menuvertical" id="menor">Verduras</button></li></li>
                         </ul>
-
                     </aside>
+                </form>
                 </section>
-<section>
+                <section>
     <div class="titulo_prod">
         <h1 class="ofertas">Ofertas Imperdíveis</h1>
         <img src="" alt="">
