@@ -1,0 +1,144 @@
+[
+    {
+        "type": "header",
+        "version": "5.2.0",
+        "comment": "Export to JSON plugin for PHPMyAdmin"
+    },
+    {
+        "type": "database",
+        "name": "odc"
+    },
+    {
+        "type": "table",
+        "name": "produto",
+        "database": "odc",
+        "data": [
+            {
+                "codproduto": "1",
+                "descricao": "Abacate",
+                "categoria": "Fruta",
+                "preco": "6",
+                "quantidade": "105"
+            },
+            {
+                "codproduto": "2",
+                "descricao": "Abacaxi",
+                "categoria": "Fruta",
+                "preco": "7.9",
+                "quantidade": "80"
+            },
+            {
+                "codproduto": "3",
+                "descricao": "Laranja",
+                "categoria": "Fruta",
+                "preco": "0.9",
+                "quantidade": "150"
+            },
+            {
+                "codproduto": "4",
+                "descricao": "Limão",
+                "categoria": "Fruta",
+                "preco": "0.5",
+                "quantidade": "350"
+            },
+            {
+                "codproduto": "5",
+                "descricao": "Maça",
+                "categoria": "Fruta",
+                "preco": "0.8",
+                "quantidade": "210"
+            },
+            {
+                "codproduto": "6",
+                "descricao": "Morango",
+                "categoria": "Fruta",
+                "preco": "13",
+                "quantidade": "80"
+            },
+            {
+                "codproduto": "7",
+                "descricao": "Moranga",
+                "categoria": "Verdura",
+                "preco": "4.25",
+                "quantidade": "100"
+            },
+            {
+                "codproduto": "8",
+                "descricao": "Alface Crespa",
+                "categoria": "Verdura",
+                "preco": "2.9",
+                "quantidade": "154"
+            },
+            {
+                "codproduto": "9",
+                "descricao": "Cebolinha",
+                "categoria": "Verdura",
+                "preco": "3.5",
+                "quantidade": "40"
+            },
+            {
+                "codproduto": "10",
+                "descricao": "Couve",
+                "categoria": "Verdura",
+                "preco": "2.5",
+                "quantidade": "100"
+            },
+            {
+                "codproduto": "11",
+                "descricao": "Rabanete",
+                "categoria": "Verdura",
+                "preco": "7.7",
+                "quantidade": "70"
+            },
+            {
+                "codproduto": "12",
+                "descricao": "Salsa",
+                "categoria": "Verdura",
+                "preco": "3.5",
+                "quantidade": "200"
+            },
+            {
+                "codproduto": "13",
+                "descricao": "Cebola Roxa\r\n",
+                "categoria": "Legume",
+                "preco": "3.7",
+                "quantidade": "340"
+            },
+            {
+                "codproduto": "14",
+                "descricao": "Cenoura",
+                "categoria": "Legume",
+                "preco": "1.5",
+                "quantidade": "410"
+            },
+            {
+                "codproduto": "15",
+                "descricao": "Mandioquinha",
+                "categoria": "Legume",
+                "preco": "14",
+                "quantidade": "171"
+            },
+            {
+                "codproduto": "16",
+                "descricao": "Milho Verde",
+                "categoria": "Legume",
+                "preco": "7",
+                "quantidade": "180"
+            },
+            {
+                "codproduto": "17",
+                "descricao": "Pimentão Verde",
+                "categoria": "Legume",
+                "preco": "3.9",
+                "quantidade": "174"
+            },
+            {
+                "codproduto": "18",
+                "descricao": "Tomate",
+                "categoria": "Legume",
+                "preco": "6.9",
+                "quantidade": "190"
+            }
+        ]
+    }
+]

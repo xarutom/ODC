@@ -34,6 +34,7 @@
             <section class="inicio">
                     <section class="flexmenu">
                         <aside>
+                           
                             <ul>
                                 <li class="column"><a href="index.php"><button class="menuvertical" onclick="(function(){window.alert('teste de OnClick')})()">Todos os Produtos</button></a></li>
                                 <li class="column"><a href="index.php?categoria=Fruta"><button class="menuvertical" id="menor">Frutas</button><a href="index.php?categoria=categoria"></li></li>
@@ -42,8 +43,7 @@
                         </ul>
                     </aside>
                 </form>
-                </section>
-                <section>
+            <section>
     <div class="titulo_prod">
         <h1 class="ofertas">Ofertas Imperdíveis</h1>
         <img src="" alt="">
@@ -89,5 +89,6 @@
             </section>
             <h1 class="footer">teste footer</h1>
         </footer>
+        <script language="javascript" src="ODC/js/index.js"></script>
 </body>
 </html>

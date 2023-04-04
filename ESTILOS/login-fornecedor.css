@@ -1,0 +1,104 @@
+body {
+    background-image: url("../imagens/conteudo/banner1y.png");
+    background-color: #94e2c4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-login-fornecedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+}
+
+.campo-cnpj-fornecedor, .campo-senha-fornecedor {
+    width: 15vw;
+    outline: none;
+    margin-top: 5px;
+}
+
+.campo-cnpj-fornecedor::placeholder, .campo-senha-fornecedor::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.campo-botao-fornecedor {
+    width: 5vw;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.campo-botao-fornecedor:hover {
+    background-color: #008000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    background-color: #fff;
+    /* border-radius: 2%; */
+    width: -20vw;
+    border: 0;
+}
+
+h4 {
+    color: #008000;
+    text-align: center ;
+    border-bottom: 1px solid #008000;
+    width: 15vw;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.campo-recupera-senha-fornecedor {
+    font-size: 14px;
+    font-weight: 500;
+    /* margin-top: 4px; */
+    /* text-align: right; */
+}
+
+.campo-redireciona-fornecedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 10px 0; */
+    /* align-items: center; */
+}
+
+.campo-descricacao-senha-fornecedor {
+    text-align: right;
+}
+
+.campo-cadastrar-fornecedor, .campo-time-fornecedores  {
+    font-size: 13px;
+}
+
+.campo-cadastrar-fornecedor, .campo-recupera-senha-fornecedor {
+    /* text-align: center; */
+}
+
+.campo-titulo {
+    display: flex;
+    justify-content: center;
+}

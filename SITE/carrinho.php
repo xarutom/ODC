@@ -24,6 +24,7 @@
     </header>
         <nav>
             <p class="banner">
+                <h3>Testando</h3>
             </p>
         </nav>
         <br><br><br>
@@ -31,6 +32,7 @@
         <h1>Entre com sua conta para acessar o carrinho de compras.</h1>
         
         
+<!-- <br>
 <br>
 <br>
 <br>
@@ -39,7 +41,6 @@
 <br>
 <br>
 <br>
-<br>
-<br>
+<br> -->
 </body>
 </html>
