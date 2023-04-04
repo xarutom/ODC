@@ -8,89 +8,7 @@
     <title>ODC | Orgânicos de Casa</title>
     <link rel="icon" type="image/x-icon" href="..\..\imagens\conteudo\faviconODCt.ico">
     <link rel="stylesheet" href="..\..\estilos\base.css">
-    <link rel="stylesheet" href="..\..\estilos\conta.css">
-    <style>
-        .form-cliente {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100vw;
-            height: 60vh;
-            padding: 10px;
-            box-sizing: border-box;
-
-            /* border: 1px solid #333; */
-        }
-
-        fieldset {
-            width: 20vw;
-            background-color: #fff;
-            /* opacity: 0.8; */
-            border: 0;
-            /* box-shadow: 1px 1px 1px 1px; */
-            border-radius: 4px;
-            margin-top: 10px;
-        }
-
-        input {
-            width: 15vw;
-            margin-top: 4px;
-            outline: none;
-            /* padding: 10px; */
-        }
-
-        button {
-            width: 5vw;
-            margin-top: 4px;
-            border-radius: 0.5px double #008000;
-
-        }
-
-        .cadastro {
-            cursor: pointer;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .cadastro:hover {
-            background-color: #008000;
-            color: #fff;
-            border: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-
-        .sair {
-            cursor: pointer;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .sair:hover {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #008000;
-            color: #fff;
-            border: 0;
-        }
-
-        h1,
-        h2,
-        h3 {
-            font-family: Arial, Helvetica, sans-serif;
-            color: #008000;
-        }
-        h2, h3 {
-            /* border: 1px solid #008000; */
-            border-bottom: 1px double #008000;
-        }
-
-        .container {
-            border: 1px solid #008000;
-            background-color: #fff;
-            padding: 10px;
-            border-radius: 5px;
-            /* opacity: 0.4; */
-        }
-    </style>
+    <link rel="stylesheet" href="../../ESTILOS/cadastro-cliente.css">
 </head>
 
 <body>
@@ -155,7 +73,7 @@
             </div>
         </form>
         <div></div>
-        <?php  require_once("./ODC/inc/scripts.inc.php"); 
+        <?php  //require_once("./ODC/inc/scripts.inc.php"); 
         ?>
     </body>
 

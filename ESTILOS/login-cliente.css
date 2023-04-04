@@ -1,0 +1,113 @@
+body {
+    background-image: url("../imagens/conteudo/banner1y.png");
+    background-color: #94e2c4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 5px ;
+    height: 40vh;
+    width: 24vw;
+    background-color: #fff;
+    /* flex-wrap: wrap; */
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    color: #32CD32	;
+    border-bottom: 1px solid #32CD32;
+}
+
+.secao-campos {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #fff;
+}
+
+.secao-campo-botoes {
+    /* margin-top: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: #99e599; */
+    width: 20vw;
+    /* padding: 27px 0; */
+    line-height: 20px;
+}
+
+.campo-email, .campo-senha {
+    width: 15vw;
+    margin-top: 10px;
+    height: 3vh;
+    outline: none;
+}
+
+.campo-email::placeholder, .campo-senha::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+label {
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.campo-botao{
+    margin-top: 10px;
+    width: 5vw;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.campo-botao:hover {
+    background-color: #008000;
+    color: #fff;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.campo-links {
+    font-size: 13px;
+    color: #000;
+    border: 1px solid #fff;
+    /* background-color: #32CD32; */
+    color: #000;
+   
+}
+
+.campo-descricao {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.campo-cadastro {
+    /* border: 1px solid #99e599; */
+    background-color: #fff;
+   
+}
+
+.campo-descricao-conta {
+    font-weight: 500;
+}
+
+.campo-link-senha {
+    font-weight: 500;
+}

@@ -1,0 +1,154 @@
+body {
+    background-image: url("../imagens/conteudo/banner1y.png");
+    background-color: #94e2c4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-cadastro-empresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px ;
+    height: 75vh;
+    width: 36vw;
+    background-color: #fffafa;
+    flex-wrap: wrap;
+}
+
+.campo-borda {
+    border: 0;
+}
+
+hr {
+    width: 100%;
+}
+
+
+h3, h4 {
+    /* color: #32CD32	; */
+    border-bottom: 1px solid #32CD32;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+input {
+    outline: none;
+}
+
+.campo-inscricao-estadual {
+    width: 17vw;
+}
+
+.secao-botoes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px;
+    background-color: #F2F1EF;
+    box-sizing: border-box;
+    border-top: 1px solid #32CD32;
+    margin-top: 10px;
+
+}
+
+.campo-detalhes {
+    /* color: #32CD32; */
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+}
+
+.campo-ddd {
+    width: 1vw;
+}
+
+.botao-cadastro {
+    background-color: #32CD32;
+    border: 0;
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao-redireciona-login {
+    background-color: #fa7f72;
+    border: 0;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    font-size: 13px;
+    margin: 0 0 0;
+}
+
+ .campo-endereco {
+    width: 10vw;
+}
+
+.secao-localidade, .secao-dados-empresariais {
+    border: 1px solid #F2F1EF;
+    padding: 10px;
+    background-color: #F2F1EF;
+}
+
+
+.campo-legenda-cidade {
+    margin: 0 84px;
+}
+
+.campo-legenda-complemento {
+    margin: 0 30px;
+}
+
+.campo-legenda-endereco {
+    margin: 0 66px;
+}
+
+.campo-legenda-cep {
+    margin: 0 10px;
+}
+
+/* .secao-dados-empresariais{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+} */
+
+.campo-nome-razao-social {
+    width:20vw;
+}
+
+.campo-telefone {
+    margin: 0 10px;
+}
+
+
+
+.conteudo-telefone {
+    display: flex;
+    margin: 0 25px;
+    padding-top: 10px;
+}
+
+.conteudo-senha {
+    display: flex;
+    margin: 0 40px;
+    justify-content: flex-start;
+    padding-top: 10px;
+}

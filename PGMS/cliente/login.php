@@ -15,116 +15,11 @@ $con = mysqli_query($conexao, $consulta) or die . mysqli_error($conexao);
     <title>ODC | Orgânicos de Casa</title>
     <link rel="icon" type="image/x-icon" href="..\..\imagens\conteudo\faviconODCt.ico">
     <link rel="stylesheet" href="../../ESTILOS/base.css">
-    <link rel="stylesheet" href="../../ESTILOS/conta.css">
+    <link rel="stylesheet" href="../../ESTILOS/login-cliente.css">
 </head>
 <style>
 
-    .form-login {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        height: 60vh;
-    }
-
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        border: 1px solid #000;
-        border-radius: 5px ;
-        height: 40vh;
-        width: 24vw;
-        background-color: #fff;
-        /* flex-wrap: wrap; */
-    }
-
-    h1{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    h2 {
-        color: #32CD32	;
-        border-bottom: 1px solid #32CD32;
-    }
-
-    .secao-campos {
-        display: flex;
-        flex-direction: column;
-        border-bottom: 1px solid #fff;
-    }
-
-    .secao-campo-botoes {
-        /* margin-top: 5px; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        /* background-color: #99e599; */
-        width: 20vw;
-        /* padding: 27px 0; */
-        line-height: 20px;
-    }
-
-    .campo-email, .campo-senha {
-        width: 15vw;
-        margin-top: 10px;
-        height: 3vh;
-        outline: none;
-    }
-
-    .campo-email::placeholder, .campo-senha::placeholder {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    label {
-        margin-top: 8px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .campo-botao{
-        margin-top: 10px;
-        width: 5vw;
-        cursor: pointer;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .campo-botao:hover {
-        background-color: #008000;
-        color: #fff;
-        border: 0;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .campo-links {
-        font-size: 13px;
-        color: #000;
-        border: 1px solid #fff;
-        /* background-color: #32CD32; */
-        color: #000;
-       
-    }
-
-    .campo-descricao {
-        font-size: 13px;
-        padding: 0;
-        margin: 0;
-    }
-
-    .campo-cadastro {
-        /* border: 1px solid #99e599; */
-        background-color: #fff;
-       
-    }
-
-    .campo-descricao-conta {
-        font-weight: 500;
-    }
-
-    .campo-link-senha {
-        font-weight: 500;
-    }
-
+    
 </style>
 
 <body>
@@ -152,7 +47,7 @@ $con = mysqli_query($conexao, $consulta) or die . mysqli_error($conexao);
         }
     ?>
     <div>
-        <form class="form-login" action="" method="post" class="formulario">
+        <form class="form-login formulario" action="" method="post">
             <div class="container">
                 <h2>Acesse sua conta</h2>
                 <section class="secao-campos">
@@ -164,7 +59,7 @@ $con = mysqli_query($conexao, $consulta) or die . mysqli_error($conexao);
                     <input value="Entrar" type="submit" class="campo-botao">
                     <span class="campo-descricao"><span>Fornecedor?</span><a class="campo-links" href="../fornecedor/loginFornecedor.php">ACESSE AQUI.</a></span>
                 </section>
-                <hr>
+               
                 <section class="secao-campo-botoes">
                     <span class="campo-descricao"><a class="campo-links campo-link-senha" href="recuperaSenhaCliente.php">Esqueci minha senha</a></span>
                     <span class="campo-descricao"><a class="campo-links" href="cadastraCliente.php"><span class="campo-descricao-conta">não tem uma conta?</span><span class="campo-cadastro">CADASTRE-SE!</span></a></span>
