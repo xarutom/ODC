@@ -1,11 +1,7 @@
 <?php
     include("../BD/conexao.php");
-    $consulta = "SELECT * FROM produto WHERE categoria = categoria" ;
+    $consulta = "SELECT * FROM produto WHERE categoria = categoria";
     $con = mysqli_query($conexao, $consulta) or die .mysqli_error($conexao);
-
-    //while($result = mysqli_fetch_array($con)){
-    //    echo $result['codproduto'];
-    //}
 ?>
 
 <!DOCTYPE html>
@@ -36,12 +32,11 @@
                 </p>
             </nav>
             <section class="inicio">
-                <form action="<?php echo $_SERVER['PHP_SELF']?>">
                     <section class="flexmenu">
                         <aside>
                             <ul>
-                                <li class="column"><button class="menuvertical">Todos os Produtos</button></li>
-                                <li class="column"><button class="menuvertical" id="menor">Frutas</button></li></li>
+                                <li class="column"><a href="index.php"><button class="menuvertical" onclick="(function(){window.alert('teste de OnClick')})()">Todos os Produtos</button></a></li>
+                                <li class="column"><a href="index.php?categoria=Fruta"><button class="menuvertical" id="menor">Frutas</button><a href="index.php?categoria=categoria"></li></li>
                                 <li class="column"><button class="menuvertical" id="menor">Legumes</button></li></li>
                                 <li class="column"><button class="menuvertical" id="menor">Verduras</button></li></li>
                         </ul>
@@ -77,6 +72,21 @@
     </section>
         
         <footer>
+            <section class="separation"></section>
+            <section class="cards">
+                <div class="card-atendimento">Atendimento</div>
+                <div class="card-informacoes">Informações</div>
+                <div class="card-duvidas">Dúvidas</div>
+            </section>
+            <section class="sub-cards">
+                <div class="pagamento">
+                    Formas de Pagamento
+                </div>
+                <div class="redessociais">
+                    Redes Sociais
+                </div>
+                
+            </section>
             <h1 class="footer">teste footer</h1>
         </footer>
 </body>
