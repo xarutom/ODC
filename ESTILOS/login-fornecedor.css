@@ -20,8 +20,6 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 30vh;
-    
-    /* align-items: ; */
 }
 
 .campo-cnpj-fornecedor, .campo-senha-fornecedor {
@@ -58,8 +56,9 @@ fieldset {
     justify-content: center;
     height: 40vh;
     background-color: #fff;
-    border-radius: 2%;
+    /* border-radius: 2%; */
     width: -20vw;
+    border: 0;
 }
 
 h4 {
@@ -90,6 +89,7 @@ h4 {
 .campo-descricacao-senha-fornecedor {
     text-align: right;
 }
+
 .campo-cadastrar-fornecedor, .campo-time-fornecedores  {
     font-size: 13px;
 }
@@ -97,6 +97,7 @@ h4 {
 .campo-cadastrar-fornecedor, .campo-recupera-senha-fornecedor {
     /* text-align: center; */
 }
+
 .campo-titulo {
     display: flex;
     justify-content: center;
