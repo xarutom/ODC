@@ -31,12 +31,21 @@
             <p class="banner">
                 </p>
             </nav>
+
+            <section class="banner-inicio">
+                <div class="img-banner">
+                    <a href="#">
+                        Imagem Aqui
+                    </a>
+                </div>
+            </section>
+
             <section class="inicio">
                     <section class="flexmenu">
                         <aside>
                             <ul>
                                 <li class="column"><a href="index.php"><button class="menuvertical" onclick="(function(){window.alert('teste de OnClick')})()">Todos os Produtos</button></a></li>
-                                <li class="column"><a href="index.php?categoria=Fruta"><button class="menuvertical" id="menor">Frutas</button><a href="index.php?categoria=categoria"></li></li>
+                                <li class="column"><a href="index.php?categoria=Fruta"><button class="menuvertical" id="menor">Frutas</button><a href="index.php?categoria=categoria"></a></li></li>
                                 <li class="column"><button class="menuvertical" id="menor">Legumes</button></li></li>
                                 <li class="column"><button class="menuvertical" id="menor">Verduras</button></li></li>
                         </ul>
@@ -87,7 +96,7 @@
                 </div>
                 
             </section>
-            <h1 class="footer">teste footer</h1>
+            
         </footer>
 </body>
 </html>
