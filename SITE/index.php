@@ -34,9 +34,7 @@
 
             <section class="banner-inicio">
                 <div class="img-banner">
-                    <a href="#">
-                        Imagem Aqui
-                    </a>
+                    <a href="sobre.php"><img class="img-banner" src="iconIndex/bannerProdutor2.png" alt=""></a>
                 </div>
             </section>
 
