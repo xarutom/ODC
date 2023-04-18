@@ -245,10 +245,147 @@ li a:hover{
     color: blue;
 }
 
-h1.footer{
-    color: #f1daaf;
+footer{
+    border-top: #3af0c8 2px outset;
+    margin-top: 5vh;
+    background-color: black;
 }
 
-footer{
+img.img-footer{
+   margin-left: 2vw;
+   width: 120px;
+   margin-top: 20%;
+}
+
+section.footer{
     display: flex;
+    
+}
+
+section.part2{
+    width: 99%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+section.card{
+    display: flex;
+    justify-content: center;
+    border-bottom: gray 1px solid;
+    width: 100%;
+}
+
+div.card{
+    margin: 1rem 4vw 5vh;
+}
+
+a.link-card{
+    font-weight: normal;
+}
+
+h1.h1-card{
+    color: white;
+    font-size: 12px;
+}
+
+p.p-card{
+    color: white;
+    font-size: 10px;
+}
+
+section.option{
+    justify-content: center;
+    display: flex;
+}
+
+div.end{
+    display: inline;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+p#op{
+    font-size: 10px;
+    text-align: left;
+}
+
+div.contact{
+    justify-content: center;
+    display: flex;
+    color: white;
+    padding-right: 23.39%;
+    text-align: center;
+}
+
+h1#con{
+    font-size: 12px;
+    display: inline-block;
+    justify-content: center;
+}
+
+div.sac{
+    margin-top: -11vh;
+    color: white;
+    display: inline;
+    float: right;
+    text-align: center;
+}
+
+input.input-sac{
+
+    height: 20px;
+}
+
+button.btn-sac{
+   background-color: transparent;
+   height: 15px;
+   border-style: none;
+}
+img.icon-sac{
+    height: 20px;
+    width: 20px;
+}
+
+h1#op{
+    font-size: 12px;
+    display: inline;
+}
+
+a.h1-op{
+    color: white;
+    margin-right: 0.5vw;
+}
+
+section.footer-footer{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+div.subgrp{
+    color: aquamarine;
+}
+
+p.subgrp{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+div.icons{
+    justify-content: center;
+    display: flex;
+    margin-right: 2rem;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+}
+
+img.icon-footer{
+    margin-right: 3rem;
+    width: 40px;
+    
+}
+
+img.icon-footer-end{
+    width: 40px;
 }
