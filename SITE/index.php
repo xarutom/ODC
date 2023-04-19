@@ -1,14 +1,7 @@
 <?php
     include("../BD/conexao.php");
-    $consulta = "SELECT * FROM produto WHERE categoria = categoria" ;
+    $consulta = "SELECT * FROM produto WHERE categoria = categoria";
     $con = mysqli_query($conexao, $consulta) or die .mysqli_error($conexao);
-
-    // while($result = mysqli_fetch_array($con)){
-    // // echo $result['codproduto'];
-    //    echo '<br>';
-    //    echo $result['descricao'] . $result['quantidade'];
-    // }
-
 ?>
 
 <!DOCTYPE html>
@@ -20,6 +13,11 @@
     <title>ODC | Orgânicos de Casa</title>
     <link rel="icon" type="image/x-icon" href="..\imagens\conteudo\faviconODCt.ico">
     <link rel="stylesheet" href="../ESTILOS/base.css">
+
+    <!--<script src="/js/main.js"></script> 
+        PARA USO FUTURO
+    -->
+    
     </head>
 <body>
     <header class="header">
@@ -27,6 +25,7 @@
     <a href="index.php"><img src="../imagens/conteudo/LogoODCt.png" class="logo"></a>
     
     <nav>
+
             <li class="pages"><a class="menu" href="index.php">Início</a></li>
             <li class="pages"><a class="menu" href="sobre.php">Sobre</a></li>
             <li class="pages"><a class="menu" href="../PGMS/cliente/login.php">Conta</a></li>
@@ -38,42 +37,27 @@
             <p class="banner">
                 </p>
             </nav>
+
+            <section class="banner-inicio">
+                <div class="img-banner">
+                    <a href="sobre.php"><img class="img-banner" src="iconIndex/bannerProdutor2.png" alt=""></a>
+                </div>
+            </section>
+
             <section class="inicio">
-                <form action="#" method="post">
                     <section class="flexmenu">
                         <aside>
-                           
-                            <ul>
-                                <form action="#" method="post">
-                               
-                                    <li class="column">
-                                        <button type="button"  name="todos-os-produtos" class="menuvertical">Todos os Produtos</button>
-                                        <?php 
-                                            //$fruta = $_POST['Fruta'];
-                                            //$sql = 'SELECT * FROM produto WHERE  categoria = '
-                                        ?>
-                                    </li>
-                                    <li class="column">
-
-                                        <button type="button"  name="Fruta" class="menuvertical fruta" id="menor">Frutas</button>
-                                        <?php 
-                                        //    $fruta = $_POST['Fruta'];
-                                        //    $sql = "SELECT * FROM produto WHERE  categoria = $fruta";
-                                        //    $con = mysqli_query($conexao, $sql)
-                                        ?>
-                                    </li>
-                                    <li class="column">
-                                        <button type="button"  name="Legume" class="menuvertical legume" id="menor">Legumes</button>
-                                    </li>
-                                    <li class="column">
-                                        <button type="button"  name="Verdura" class="menuvertical verdura" id="menor">Verduras</button>
-                                    </li>
-                                </form>
-                           </ul>
-                        </aside>
-                    </section>
+                                <li class="column"><a href="index.php"><button class="menuvertical" onclick="(function(){window.alert('teste de OnClick')})()">Todos os Produtos</button></a></li>
+                                <li class="column"><a href="index.php?categoria=Fruta"><button class="menuvertical" id="menor">Frutas</button><a href="index.php?categoria=categoria"></a></li></li>
+                                <li class="column"><button class="menuvertical" id="menor">Legumes</button></li></li>
+                                <li class="column"><button class="menuvertical" id="menor">Verduras</button></li></li>
+                                
+                        
+                        </ul>
+                    </aside>
                 </form>
-            <section>
+                </section>
+                <section>
     <div class="titulo_prod">
         <h1 class="ofertas">Ofertas Imperdíveis</h1>
         <img src="" alt="">
@@ -102,8 +86,65 @@
     </section>
         
         <footer>
-            <h1 class="footer">teste footer</h1>
+            <section class="footer">
+            
+                <section class="part2">
+
+                    <section class="card">
+                        <div class="card">
+                            <a class="link-card" href="sobre.php">
+                                <h1 class="h1-card">Sobre nós</h1>
+                                <p class="p-card">Saiba mais sobre nossa história, não fique de fora</p>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="../PGMS/cliente/login.php" class="link-card">
+                                <h1 class="h1-card">Faça parte!</h1>
+                                <p class="p-card">Venha ser um agricultor familiar e poder crescer juntos</p>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="options">
+                        <div class="end">
+                            <p class="p-op" id="op">Rua Dr. Zuquim, 298 - Santana, São Paulo - SP <br> 02035-020</p>
+                        </div>
+                        <div class="contact">
+                            <h1 class="h1-op" id="con">
+                                Entre em contato
+                                <br>
+                                conosco
+                                <br> <br>
+                                21 7165-9098
+                            </h1>
+                        </div>
+                        <div class="sac">
+                            <a href="#" class="h1-op">
+                                <h1 class="h1-op" id="op">
+                                    Reclame Aqui!
+                                </h1>
+                            </a>
+                            
+                        </div>
+                    </section>
+
+                    <section class="footer-footer">
+                        <div class="subgrp">
+                            <div class="icons">
+
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <img class="icon-footer" src="IconIndex/instagram.png" alt="Instagram" srcset="">
+                                </a>
+                                <a href="https://web.whatsapp.com" target="_blank">
+                                    <img class="icon-footer" src="IconIndex/whatsapp.png" alt="Instagram">
+                                </a>
+                                <a href="https://pt-br.facebook.com" target="_blank">
+                                    <img src="IconIndex/facebook.png" alt="" class="icon-footer-end">
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                </section>
         </footer>
-        <script language="javascript" src="ODC/js/index.js"></script>
 </body>
 </html>
