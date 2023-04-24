@@ -47,10 +47,10 @@
             <section class="inicio">
                     <section class="flexmenu">
                         <aside>
-                                <li class="column"><a href="index.php"><button class="menuvertical" onclick="(function(){window.alert('teste de OnClick')})()">Todos os Produtos</button></a></li>
-                                <li class="column"><a href="index.php?categoria=Fruta"><button class="menuvertical" id="menor">Frutas</button><a href="index.php?categoria=categoria"></a></li></li>
-                                <li class="column"><button class="menuvertical" id="menor">Legumes</button></li></li>
-                                <li class="column"><button class="menuvertical" id="menor">Verduras</button></li></li>
+                                <li class="column"><a href="index.php"><button class="menuvertical">Todos os Produtos</button></a></li>
+                                <li class="column"><a href="ftfrutas.php"><button class="menuvertical" id="menor">Frutas</button><a href="index.php?categoria=categoria"></a></li></li>
+                                <li class="column"><a href="ftlegumes.php"><button class="menuvertical" id="menor">Legumes</button></a></li></li>
+                                <li class="column"><a href="ftverduras.php"><button class="menuvertical" id="menor">Verduras</button></a></li></li>
                                 
                         
                         </ul>
