@@ -72,8 +72,66 @@
 </section>
     </section>
         
-        <footer>
-            <h1 class="footer">teste footer</h1>
+    <footer>
+            <section class="footer">
+            
+                <section class="part2">
+
+                    <section class="card">
+                        <div class="card">
+                            <a class="link-card" href="sobre.php">
+                                <h1 class="h1-card">Sobre nós</h1>
+                                <p class="p-card">Saiba mais sobre nossa história, não fique de fora</p>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="../PGMS/cliente/login.php" class="link-card">
+                                <h1 class="h1-card">Faça parte!</h1>
+                                <p class="p-card">Venha ser um agricultor familiar e poder crescer juntos</p>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="options">
+                        <div class="end">
+                            <p class="p-op" id="op">Rua Dr. Zuquim, 298 - Santana, São Paulo - SP <br> 02035-020</p>
+                        </div>
+                        <div class="contact">
+                            <h1 class="h1-op" id="con">
+                                Entre em contato
+                                <br>
+                                conosco
+                                <br> <br>
+                                21 7165-9098
+                            </h1>
+                        </div>
+                        <div class="sac">
+                            <a href="#" class="h1-op">
+                                <h1 class="h1-op" id="op">
+                                    Reclame Aqui!
+                                </h1>
+                            </a>
+                            
+                        </div>
+                    </section>
+
+                    <section class="footer-footer">
+                        <div class="subgrp">
+                            <div class="icons">
+
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <img class="icon-footer" src="IconIndex/instagram.png" alt="Instagram" srcset="">
+                                </a>
+                                <a href="https://web.whatsapp.com" target="_blank">
+                                    <img class="icon-footer" src="IconIndex/whatsapp.png" alt="Instagram">
+                                </a>
+                                <a href="https://pt-br.facebook.com" target="_blank">
+                                    <img src="IconIndex/facebook.png" alt="" class="icon-footer-end">
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                </section>
         </footer>
 </body>
 </html>
