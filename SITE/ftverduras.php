@@ -33,16 +33,17 @@
             </nav>
             <section class="inicio">
                 
-                <section class="flexmenu">
-                    <aside>
-                        <ul>
-                            <li class="column"><a class="menuvertical" href="index.php">Todos os produtos</a></li>
-                            <li class="column"><a class="menuvertical" href="ftfrutas.php">Frutas</a></li>
-                            <li class="column"><a class="menuvertical" href="ftlegumes.php">Legumes</a></li>
-                            <li class="column"><a class="menuvertical" href="ftverduras.php">Verduras</a></li>
+            <section class="flexmenu">
+                        <aside>
+                                <li class="column"><a href="index.php"><button class="menuvertical">Todos os Produtos</button></a></li>
+                                <li class="column"><a href="ftfrutas.php"><button class="menuvertical" id="menor">Frutas</button><a href="index.php?categoria=categoria"></a></li></li>
+                                <li class="column"><a href="ftlegumes.php"><button class="menuvertical" id="menor">Legumes</button></a></li></li>
+                                <li class="column"><a href="ftverduras.php"><button class="menuvertical" id="menor">Verduras</button></a></li></li>
+                                
+                        
                         </ul>
-
                     </aside>
+                </form>
                 </section>
 <section>
     <div class="titulo_prod">
