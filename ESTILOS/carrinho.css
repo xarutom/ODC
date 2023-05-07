@@ -1,0 +1,101 @@
+body {
+  overflow-x: hidden;
+  background: #f9f9f9;
+  width: 100vw;
+  height: 100vh;
+}
+
+.lista-links {
+  display: flex;
+}
+
+.logo-produtos {
+  width: 150px;
+  text-align: center;
+  border-bottom: 0.6px solid #333;
+}
+
+.secao-produtos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85vw;
+  height: 45vh;
+  padding: 10px 0;
+}
+
+.lista-produtos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50vw;
+  height: 70vh ;
+  margin-top: 17rem;
+  background-color: #fff;
+  box-shadow: 0.1px 1px 2px 0.4px;
+  opacity: 0.6;
+}
+
+.lista-item {
+  margin: 20px 40px;
+  border: 0.5px dashed #333;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 31vh;
+  width: 10vw;
+  /* padding: 10px; */
+}
+
+.botao-adicionar  {
+  width: 6vw;
+  height: 30px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #023900;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.botao-adicionar:hover {
+  background-color: #333;
+}
+
+.decricao-item {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.campo-botao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  text-align: center;
+}
+
+.valor-produto {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.logo-oferta {
+  text-align: center;
+}
+
+.banner-oferta {
+  display: flex;
+  align-items: center ;
+  flex-direction: column;
+  margin-top: 10px;
+  /* text-align: center; */
+}
