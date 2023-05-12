@@ -29,7 +29,6 @@
             <li class="pages"><a class="menu" href="index.php">Início</a></li>
             <li class="pages"><a class="menu" href="sobre.php">Sobre</a></li>
             <li class="pages"><a class="menu" href="../PGMS/cliente/login.php">Conta</a></li>
-            <li class="pages"><a class="menu" href="carrinho.php">Carrinho</a></li>
             
         </nav>
     </header>

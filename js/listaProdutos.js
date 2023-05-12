@@ -25,29 +25,39 @@ const listaFrutas = [
 
 
 
-const secaoItens = document.querySelector('.lista-produtos')
+const secaoItens = document.querySelector('.list-group')
 const btnRemover = document.querySelector('.botao-remover')
 
 function  mostrarProdutos(){
-    secaoItens.innerHTML = ""
-
+    secaoItens.classList.add("secao-itens-titulo");
+    secaoItens.innerHTML = "";
     listaFrutas.forEach(item => {
         secaoItens.innerHTML += `
-       
-            <li class="lista-item">
-                <img class="logo-produtos" src=${item.fruta}  alt=${item.produto}>
-                <div class="decricao-item">
-                    <span class="valor-produto">${item.produto}</span>
-                    <span class="valor-produto">R$ ${item.preco} / unidade</span>
+        <li class="list-group-item d-flex justify-content-around align-items-center lista-item ">
+            <div class="nome-produto">
+                <img class="logo-produtos" src="${item.fruta}" alt="${item.produto}">
+                <span>${item.produto}</span>
+            </div>
+            <div class="conteudo">
+                <span class="valor-produto">R$ ${item.preco}</span> 
+                <div class="badge rounded-pill itens">
+                    <span class="  botao-produto" type="button" onclick="removerProduto()">-</span>
+                    <span class="botao-valor">${item.quantidade}</span>
+                    <span class="  botao-produto" type="button" onclick="adicionarProduto(${item.quantidade})">+</span>
                 </div>
-
-                <div class="campo-botao">
-                    <button class="botao-adicionar">Adicionar</button>
-                </div>
-            </li>
+            </div>
+      </li> 
+          
         `
     })
-
 }
 
+function adicionarProduto(quantidade){
+    
+}
+
+function removerProduto(){
+   
+}
 mostrarProdutos()   
+

@@ -17,15 +17,17 @@
     <link rel="stylesheet" href="..\estilos\secao-logo.css">
     <link rel="stylesheet" href="..\estilos\lista-itens.css">
     <link rel="stylesheet" href="..\estilos\filtro.css">
+    <link rel="stylesheet" href="..\estilos\baner.css">
+    <link rel="stylesheet" href="..\estilos\index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <style>
        
     </style>
 </head>
 
 <body>
-    <header class="header">
+    <header style="position: fixed; width: 100%;" class="header">
         <a href="index.php"><img src="../imagens/conteudo/LogoODCt.png" class="logo" alt="logo organicos de casa"></a>
         <nav>
             <ul class="lista-links">
@@ -44,10 +46,10 @@
             <img class="logo-carrinho" src="https://www.mercadodiferente.com.br/_next/image?url=%2Fimages%2Fbox%2Fimagem-header-diferente.png&w=750&q=75" alt="">
         </div>
     </section>
-    
+    <h2 style="text-align: center; margin-top: 20px;">Carrinho</h2>
     <div class="banner-oferta">
-        <!-- <p>A  gente leva até você vegetais fresquinhos & sem frescura</p> -->
-        <img class="logo-oferta" src="https://naturaldaterra.com.br/media/wysiwyg/HIF-0013-23I_-_FEIRA_-_CATEGORIA_-_970x150_-_NT_-_01.png?auto=webp&format=png&quality=85" alt="">
+        <p>A  gente leva até você vegetais fresquinhos & sem frescura</p>
+        <!-- <img class="logo-oferta" src="https://naturaldaterra.com.br/media/wysiwyg/HIF-0013-23I_-_FEIRA_-_CATEGORIA_-_970x150_-_NT_-_01.png?auto=webp&format=png&quality=85" alt=""> -->
 
     </div>
     <!-- lista aba carrinho -->
@@ -113,14 +115,14 @@
                         <span class="legenda-produto">Tomate</span>
                         <span class="legenda-quantidade">(1)</span>
                     </li>
-                    <li class=""><span class="">Faixa de Preço</span></li>
-                    <li class=""><input type="range" name="" id=""></li>
                 </ul>
             </aside>
         </div>
-        <ul class="lista-produtos"></ul>
+        
+        <ul class="list-group lista">
+        </ul>
     </section>
-
-    <script type="module"  src="../js/listaProdutos.js"></script>
+    
+    <script   src="../js/listaProdutos.js"></script>
 </body>
 </html>

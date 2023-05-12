@@ -36,10 +36,10 @@ a.menuhorizontal{
     font-weight: bold;
 }
 
-.logo {
-    width: 250px;
-    margin: 0px center;
-}
+    .logo {
+        width: 250px;
+        margin: 0px center;
+    }
 
 
 h1{
@@ -53,10 +53,10 @@ h1{
     background-position: left;
     background-repeat: no-repeat;
     background-size: 1000PX, cover;
-    height: 70px;
+    height: 90px;
     display: block;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center ;
     padding: 20px;

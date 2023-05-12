@@ -1,7 +1,7 @@
 <?php
 include("../../BD/conexao.php");
-
 if(isset($_POST['ok'])){
+    $error = "";
 
     $email= $conexao->escape_string($_POST['email']);
 
@@ -11,7 +11,7 @@ if(isset($_POST['ok'])){
     }
 
     $sql_code = "SELECT senha, codFornecedor FROM fornecedor WHERE email = '$email'";
-    $sql_query = $conexao->query($sql_code) or die ($mysqli->error);
+    $sql_query = $conexao->query($sql_code) or die ($error);
     $dado = $sql_query->fetch_assoc();
     $total = $sql_query->num_rows;
 

@@ -8,7 +8,8 @@
     <title>ODC | Orgânicos de Casa</title>
     <link rel="icon" type="image/x-icon" href="..\..\imagens\conteudo\faviconODCt.ico">
     <link rel="stylesheet" href="..\..\estilos\base.css">
-    <link rel="stylesheet" href="../../ESTILOS/cadastro-empresa.css">
+    <link rel="stylesheet" href="../../ESTILOS/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 
 <body>
@@ -27,101 +28,82 @@
         </p>
     </nav>
 
-    <body>
-        <h1 class="titulo-empresa">Minha Empresa</h1>
+    <body style="background-color: #94e2c4">
+        
+    <h1 class="titulo-empresa">Minha Empresa</h1>
+        <div class="container">
+            <!-- <h1>DADOS PESSOA JURÍDICA</h1> -->
+            <div class="content">
+                <form method="post" action="incluirFornecedor.php" class="row g-3 form">
+                <h3>Detalhes da empresa</h3>
+                    <div class="col-md-6">
+                        <label for="cnpj" class="legenda-campo">Cnpj</label>
+                        <input type="text" class="form-control" id="cnpj" name="cnpj"  placeholder="42423533/53353-53">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inscricao" class="legenda-campo">inscricao</label>
+                        <input type="text" class="form-control" id="inscricao" name="inscricaoEstadual" placeholder="inscricaoEstadual">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="razao-social" class="legenda-campo">Razão Social</label>
+                        <input type="text" class="form-control" id="razao-social" name="razaoSocial" placeholder="Razão Social">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="legenda-campo">E-mail</label>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="exemplo - hotmail@com">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="telefone" class="legenda-campo">Telefone</label>
+                        <input type="text" class="form-control" id="telefone" name="telefone" placeholder="(dd) 99999-9999">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="senha" class="legenda-campo">Senha</label>
+                        <input type="password" class="form-control" id="senha" name="senha" placeholder="********">
+                    </div>
+                    <h4>Endereço</h4>
 
-        <form class="form-cadastro-empresa" action="incluirFornecedor.php" method="post">
-            <div class="container">
-                <fieldset class="campo-borda">
+                    <div class="col-md-6">
+                        <label for="cep" class="legenda-campo">Cep</label>
+                        <input type="text" class="form-control" id="cep" name="cep" placeholder="0000-0000">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="endereco" class="legenda-campo">Rua/Avenida/Travessa</label>
+                        <input type="text" class="form-control" id="endereco" name="endereco" placeholder="endereço">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="cidade" class="legenda-campo">Cidade</label>
+                        <input type="text" class="form-control" id="cidade" name="cidade" placeholder="cidade">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="bairro" class="legenda-campo">Bairro</label>
+                        <input type="text" class="form-control" id="bairro" name="bairro" placeholder="cidade">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="estado" class="legenda-campo">Estado</label>
+                        <select id="estado" class="form-select" name="estado">
+                            <option selected>Selecione</option>
+                            <option value="São Paulo">São Paulo</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="Goias">Goias</option>
+                            <option value="Parana">Parana</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="complemento" class="legenda-campo">Complemento</label>
+                        <input type="text" class="form-control" id="complemento" name="complemento" placeholder="apartamento/casa">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="numero" class="legenda-campo">Número</label>
+                        <input type="text" class="form-control" id="numero" name="numero" placeholder="n°">
+                    </div>
 
-
-                    <section class="secao-titulos">
-                        <h3>DADOS PESSOA JURÍDICA</h3>
-                        <span class="campo-detalhes">Detalhes da empresa</span>
-                        <hr>
-                    </section>
-
-                    <section class="secao-dados-empresariais">
-                        <label class="campo-legenda-cnpj" for="cnpj">CNPJ
-                            <input class="campo-cnpj" type="text" placeholder="CNPJ" name="cnpj" id="cnpj">
-                        </label>
-
-                        <label class="campo-legenda-inscricao-estadual" for="inscricao-estadual">Inscrição
-                            <input class="campo-inscricao-estadual" type="text" placeholder="Inscrição Estadual" name="inscricaoEstadual" id="inscricao-estadual">
-                        </label>
-
-                        <br>
-                        <label class="campo-legenda-email" for="email">E-mail
-                            <input class="campo-email" type="e-mail" placeholder="E-mail" name="email" id="email">
-                        </label>
-
-                        <label class="campo-legenda-telefone" for="telefone">Telefone
-                            <input class="campo-ddd" type="text" placeholder="dd">
-                            <input class="campo-telefone" type="text" placeholder="Telefone" name="telefone" id="telefone">
-                        </label>
-                        
-                        <br>
-                        <label class="campo-legenda-razao-social" for="razao-social">Razão social
-                            <input class="campo-nome-razao-social" type="text" placeholder="Nome Razao Social" name="razaoSocial" id="razao-social">
-                        </label>
-
-                        <br>
-                        <label class="campo-legenda-senha" for="senha">Senha
-                            <input class="campo-senha" type="password" placeholder="Senha" name="senha" id="senha">
-                        </label>
-                    </section>
-
-
-                    <!-- <hr> -->
-
-
-
-                    <section class="secao-titulos">
-                        <h4>ENDEREÇO</h4>
-                    </section>
-
-
-                    <section class="secao-localidade">
-                        <label class="campo-legenda-cep" for="cep">Cep
-                            <input class="campo-cep" type="text" placeholder="CEP" name="cep" id="cep">
-                        </label>
-
-                        <label class="campo-legenda-endereco" for="endereco">Endereço
-                            <input class="campo-endereco" type="text" placeholder="Rua / Avenida / Travessa" name="endereco" id="endereco">
-                        </label>
-                         
-                        <br>
-                        <label class="campo-legenda-numero" for="numero">Número
-                            <input class="campo-numero" type="text" placeholder="Número Estabelecimento" name="numero" id="numero">
-                        </label>
-
-                        
-                        <label class="campo-legenda-complemento" for="complemento">Complemento
-                            <input class="campo-complemento" type="text" placeholder="Complemento" name="complemento" id="complemento">
-                        </label>
-
-                       <br>
-                        <label class="campo-legenda-estado for="estado">Estado
-                            <input class="campo-estado" type="text" placeholder="Estado" name="estado" id="estado">
-                        </label>
-
-                        <label class="campo-legenda-cidade" for="cidade">Cidade
-                            <input class="campo-cidade" type="text" placeholder="Cidade" name="cidade" id="cidade">
-                        </label>
-                        
-                        <br>
-                        <label class="campo-legenda-bairro" for="bairro">Bairro
-                            <input class="campo-bairro" type="text" placeholder="Bairro/Destrito" name="bairro" id="bairro">
-                        </label>
-                    </section>
-
-                    <section class="secao-botoes">
-                        <button type="submit" class="botao-cadastro">Cadastrar</button>
-                        <button type="submit" class="botao-redireciona-login" formaction="loginFornecedor.php">Sair</button>
-                    </section>
-                </fieldset>
+                    <div class="col-12 campo-botoes link-botao">
+                        <button type="submit" class=" botao-cadastrar">cadastrar</button>
+                        <button type="submit" class="botao-sair" formaction="../cliente/login.php">Sair</button>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
     </body>
 
 </html>

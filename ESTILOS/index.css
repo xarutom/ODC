@@ -38,7 +38,7 @@ a.menuhorizontal{
 }
 
 .logo {
-    width: 350px;
+    width: 250px;
     margin: 0px center;
 }
 
@@ -54,7 +54,7 @@ h1{
     background-position: left;
     background-repeat: no-repeat;
     background-size: 1000PX, cover;
-    height: 90px;
+    height: 93px;
     display: block;
     display: flex;
     flex-wrap: wrap;

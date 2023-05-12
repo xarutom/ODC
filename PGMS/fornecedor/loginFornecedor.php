@@ -12,7 +12,7 @@ include("../fornecedor/validaDadosFornecedor.php");
     <title>ODC | Orgânicos de Casa</title>
     <link rel="icon" type="image/x-icon" href="..\..\imagens\conteudo\faviconODCt.ico">
     <link rel="stylesheet" href="..\..\estilos\base.css">
-    <link rel="stylesheet" href="../../ESTILOS/login-fornecedor.css">
+    <link rel="stylesheet" href="../../ESTILOS/login.css">
 </head>
 <body>
     <header class="header">
@@ -36,31 +36,46 @@ include("../fornecedor/validaDadosFornecedor.php");
         }
     ?>
 
-    <form class="form-login-fornecedor" action="#" method="post">
-        <div class="container">
-            <fieldset>
-                <section class="campo-titulo">
-                    <h4>Acesse sua conta</h4>
-                </section>
-            
-                <label for="cnpj">CNPJ</label>
-                <input class="campo-cnpj-fornecedor" value="<?php if (isset($_SESSION)) echo $_SESSION['cnpj'] ?>" name="cnpj" placeholder="00.000.000/0000-00" type="text" id="cnpj">
+<div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
     
-                <label for="senha">Senha</label>
-                <input class="campo-senha-fornecedor" name="senha" type="password" id="senha" placeholder="informe sua senha">
-    
-                <input class="campo-botao-fornecedor" value="Entrar" type="submit">
-    
-                <section class="campo-redireciona-fornecedor">
-                 <a class="campo-recupera-senha-fornecedor" href="recuperaSenhaFornecedor.php">Esqueci minha senha</a>
-                  <a class="campo-cadastrar-fornecedor" href="cadastraFornecedor.php">CADASTRE-SE</a>
-                    <!-- <span class="campo-time-fornecedores">E faça parte do time de fornecedores</span> -->
-                </section>
-            </fieldset>
+    <div class="content">      
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        <form method="post" action="#"> 
+          <h2 class="titulo-login">Fornecedor</h2> 
+          <p> 
+            <label for="email_login">Seu cnpj</label>
+            <input id="cnpj" value="<?php if (isset($_SESSION)) echo $_SESSION['cnpj'] ?>" name="cnpj" required="required" type="text" placeholder="00.000.000/0000-00"/>
+          </p>
+          
+          <p> 
+            <label for="senha_login">Sua senha</label>
+            <input id="senha_login" name="senha" required="required" type="password" placeholder="1234" /> 
+          </p>
+          
+          <p> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me logado</label>
+          </p>
+          
+          <p class="campo-links"> 
+                <input class="botao-logar" type="submit" value="Logar" /> 
+                <a class="senha" href="recuperaSenhaFornecedor.php">Esqueci minha senha</a>
+                <p class="campo-links">
+                   
+                </p>
+          </p>
+          
+          <p class="link">
+            Ainda não tem conta?
+            <a href="cadastraFornecedor.php">Cadastre-se</a>
+          </p>
+        </form>
+      </div>
 
-        </div>
-    </form>
-
+    </div>
+  </div> 
 </body>
-
 </html>

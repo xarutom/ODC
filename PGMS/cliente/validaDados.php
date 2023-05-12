@@ -26,7 +26,6 @@ if (isset($_POST['email']) && strlen($_POST['email']) > 0) {
     }
 
     if (!isset($erro)) {
-        echo "<script>alert('Login efetuado com sucesso'); location.href='../../site/index.php';</script>";
+        echo "<script>alert('Login efetuado com sucesso'); location.href='../../site/login-carrinho.php';</script>";
     }
-} else {
-}
+} 
