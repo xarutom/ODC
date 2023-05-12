@@ -29,7 +29,7 @@ if(isset($_POST['cnpj']) && strlen($_POST['cnpj']) > 0){
     }
 
     if(!isset($erro)){
-        echo "<script>alert('Login efetuado com sucesso'); location.href='loginFornecedor.php';</script>";
+        echo "<script>alert('Login efetuado com sucesso'); location.href='perfilFornecedor.php';</script>";
         
     }
 }

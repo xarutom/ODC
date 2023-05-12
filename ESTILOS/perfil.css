@@ -1,0 +1,40 @@
+body{
+    font-family: 'Poppins';
+}
+
+.header {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;    
+    margin:0;
+    background-color: #ebf1e5;
+}
+
+.header .logo-inicio {
+    padding: 5px;
+    height: 80px;
+}
+
+.header .menu {
+    display: flex;
+    padding: 10px;
+    border: 5px;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.header nav li a {
+    font-weight: bold;
+    color: #219f23;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 5px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.header nav li a:hover {
+    background-color: #d0e5b6;
+}
