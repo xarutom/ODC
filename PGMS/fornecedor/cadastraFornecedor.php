@@ -99,11 +99,11 @@
 
                     <div class="col-12 campo-botoes link-botao">
                         <button type="submit" class=" botao-cadastrar">cadastrar</button>
-                        <button type="submit" class="botao-sair" formaction="../cliente/login.php">Sair</button>
+                        <button type="submit" class="botao-sair"><a class="link-login" href="loginFornecedor.php">Sair</a></button>
                     </div>
                 </form>
             </div>
         </div>
+        <script src="../../js/cepFornecedor.js"></script>
     </body>
-
 </html>

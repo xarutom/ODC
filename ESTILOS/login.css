@@ -38,9 +38,7 @@ body {
 }
 
 .container {
-    /* margin-top: 10px; */
     margin-bottom: 35px;
-    /* width: 30vw; */
 }
 /* formatando o cabeçalho dos formulários */
 h1, h2 {
@@ -60,7 +58,6 @@ h3, h4 {
     border-bottom: 1px solid #222;
     opacity: 0.4;
     background-color: #F6F1F1;
-    /* color: ; */
     font-weight: 500;
     box-shadow: 1px 1px 0px 0px;
 }
@@ -80,6 +77,13 @@ h3, h4 {
     border: 0;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-login{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
 }
 
 .botao-cadastrar {

@@ -33,7 +33,7 @@
     <body style=" background-color: #94e2c4;">
         <div class="container">
             <div class="content">
-                <form method="post" action="incluirUsuario.php" class="row g-3 form">
+                <form method="post" action="incluirUsuario.php"  class="row g-3 form">
                 <h3>Cadastro</h3>
                     <div class="col-md-6">
                         <label for="inputEmail4" class="legenda-campo">Nome</label>
@@ -62,48 +62,47 @@
                     <h4>Endereço</h4>
 
                     <div class="col-md-6">
-                        <label for="inputCity" class="legenda-campo">Cep</label>
-                        <input type="text" class="form-control" id="inputCity" name="cep" placeholder="0000-0000">
+                        <label for="cep" class="legenda-campo">Cep</label>
+                        <input type="text" class="form-control" id="cep" name="cep" placeholder="0000-0000">
                     </div>
                     <div class="col-md-6">
-                        <label for="inputCity" class="legenda-campo">Rua/Avenida/Travessa</label>
-                        <input type="text" class="form-control" id="inputCity" name="endereco" placeholder="endereço">
+                        <label for="endereco" class="legenda-campo">Rua/Avenida/Travessa</label>
+                        <input type="text" class="form-control" id="endereco" name="endereco" placeholder="endereço">
                     </div>
                     <div class="col-md-6">
-                        <label for="inputCity" class="legenda-campo">Cidade</label>
-                        <input type="text" class="form-control" id="inputCity" name="cidade" placeholder="cidade">
+                        <label for="cidade" class="legenda-campo">Cidade</label>
+                        <input type="text" class="form-control" id="cidade" name="cidade" placeholder="cidade">
                     </div>
                     <div class="col-md-6">
-                        <label for="inputCity" class="legenda-campo">Bairro</label>
-                        <input type="text" class="form-control" id="inputCity" name="bairro" placeholder="cidade">
+                        <label for="bairro" class="legenda-campo">Bairro</label>
+                        <input type="text" class="form-control" id="bairro" name="bairro" placeholder="cidade">
                     </div>
                     <div class="col-md-4">
-                        <label for="inputState" class="legenda-campo">Estado</label>
-                        <select id="inputState" class="form-select" name="estado">
-                            <option selected>Selecione</option>
-                            <option value="São Paulo">São Paulo</option>
-                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <label for="estado" class="legenda-campo">Estado</label>
+                        <select id="estado" class="form-select" name="estado">
+                            <option selected ></option>
+                            <option value="São-Paulo">São Paulo</option>
+                            <option value="Rio-de-Janeiro">Rio de Janeiro</option>
                             <option value="Goias">Goias</option>
                             <option value="Parana">Parana</option>
                         </select>
                     </div>
                     <div class="col-md-6">
-                        <label for="inputCity" class="legenda-campo">Complemento</label>
-                        <input type="text" class="form-control" id="inputCity" name="complemento" placeholder="apartamento/casa">
+                        <label for="complemento" class="legenda-campo">Complemento</label>
+                        <input type="text" class="form-control" id="complemento" name="complemento" placeholder="apartamento/casa">
                     </div>
                     <div class="col-md-2">
-                        <label for="inputCity" class="legenda-campo">Número</label>
-                        <input type="text" class="form-control" id="inputCity" name="numero" placeholder="n°">
+                        <label for="numero" class="legenda-campo">Número</label>
+                        <input type="text" class="form-control" id="numero" name="numero" placeholder="n°">
                     </div>
 
                     <div class="col-12 campo-botoes link-botao">
-                        <button type="submit" class=" botao-cadastrar">cadastrar</button>
-                        <button type="submit" class="botao-sair" formaction="login.php">Sair</button>
+                        <button type="submit" class="botao-cadastrar">cadastrar</button>
+                        <button type="submit" class="botao-sair"><a class="link-login" href="login.php">Sair</a></button>
                     </div>
                 </form>
             </div>
         </div>
-
+        <script src="../../js/cepCliente.js"></script>
     </body>
-
 </html>

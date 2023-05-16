@@ -1,8 +1,8 @@
 <?php
 include("../../BD/conexao.php");
 include("validaDados.php");
-$consulta = "SELECT email, senha FROM cliente";
-$con = mysqli_query($conexao, $consulta) or die . mysqli_error($conexao);
+// $consulta = "SELECT email, senha FROM cliente";
+// $con = mysqli_query($conexao, $consulta) or die . mysqli_error($conexao);
 
 ?>
 <!DOCTYPE html>
