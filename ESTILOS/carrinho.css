@@ -5,6 +5,84 @@ body {
   height: 100%;
 }
 
+.banner-oferta {
+  /* height: 20vh; */
+  width: 100vw;
+  padding: 30px;
+  /* border: 1px solid #000; */
+  margin-top: 10px;
+  box-shadow: rgba(212, 212, 223, 0.25) 0px 50px 100px -20px;
+
+}
+
+.banner-oferta > p {
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  
+}
+
+.cabecalho-filtro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #28a745; */
+   /* border-bottom: 1px solid #000; */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  
+
+}
+tr > th > img {
+  margin: 0  50px 0 -10px;
+  width: 50px;
+}
+
+
+aside, .info, .box {
+  box-shadow: rgba(212, 212, 223, 0.25) 0px 50px 100px -20px;
+}
+
+thead {
+  height: 5vh;
+  width: 20vw;  
+}
+
+.box {
+  border: 0;
+}
+
+.cabecalho-filtro > nav > a {
+  text-decoration: none;
+  /* border: 1px solid #000; */
+  box-shadow: 1px 0px 0px 0px;
+  padding: 10px;
+  width: 10vw;
+  text-align: center;
+  color: #000;
+
+  /* box-shadow: 0 0.9rem 1rem rgba(126, 116, 116, 0.15); */
+}
+
+.cabecalho-filtro > nav > a:hover {
+  background-color: #20c997;
+  /* padding: 26px; */
+  transition: ease-in-out 0.4s;
+}
+
+footer {
+  background-color: #28a745;
+  height: 14vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+}
+
+footer > h3 {
+  font-family: 1rem;
+}
+
 .lista-links {
   display: flex;
  
@@ -34,6 +112,14 @@ body {
 
 .lista-item {
   margin: 5px 0;
+}
+
+.campo-valor {
+  width:40px;
+  padding: 0;
+  text-align: center;
+  border: 0;
+  background-color: #eee;
 }
 
 .container-modal {
@@ -145,22 +231,37 @@ main {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  
+
+  height: 100vh;
+  width: 100vw;
 }
 
 .content {
-  box-shadow: 0.1px 1px 2px 0.4px;
-  width: 50vw;
+  /* box-shadow: 0.1px 1px 2px 0.4px; */
+  width: 60vw;
   display: flex;
   justify-content: center;
   margin: 0 auto;
   padding: 20px;
   height: 100vh;
+  background-color: #ffff;
+
+}
+
+.content {
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
 
 
 body > main {
-  background: #fff;
+  /* background:rgba(0, 0, 0, 0.15); */
   padding: 0 30px 30px;
+}
+
+thead {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
 }
 
 body > main .page-title {
