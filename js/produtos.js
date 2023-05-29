@@ -7,19 +7,19 @@
     { produto: 'Maça', categoria: 'Fruta', preco: '0,80', codproduto: 5, imagemProduto: '../imagens/Produtos/Fruta/Maça.png', quantidade: 0 },
     { produto: 'Morango', categoria: 'Fruta', preco: '13,00', codproduto: 6, imagemProduto: '../imagens/Produtos/Fruta/Morango.png', quantidade: 0 },
     //Verdura
-    { produto: 'Moranga', categoria: 'Verdura', preco: 4.25, codproduto: 7, imagemProduto: '../imagens/Produtos/Verdura/Moranga.png' },
-    { produto: 'Alface Crespa', categoria: 'Verdura', preco: 2.9, codproduto: 8, imagemProduto: '../imagens/Produtos/Verdura/Alface Crespa.png' },
-    { produto: 'Cebolinha', categoria: 'Verdura', preco: 3.5, codproduto: 9, imagemProduto: '../imagens/Produtos/Verdura/Cebolinha.png' },
-    { produto: 'Couve', categoria: 'Verdura', preco: 2.5, codproduto: 10, imagemProduto: '../imagens/Produtos/Verdura/Couve.png' },
-    { produto: 'Rabanete', categoria: 'Verdura', preco: 7.7, codproduto: 11, imagemProduto: '../imagens/Produtos/Verdura/Rabanete.png' },
-    { produto: 'Salsa', categoria: 'Verdura', preco: 3.5, codproduto: 12, imagemProduto: '../imagens/Produtos/Verdura/Salsa.png' },
+    { produto: 'Moranga', categoria: 'Verdura', preco: '4,25', codproduto: 7, imagemProduto: '../imagens/Produtos/Verdura/Moranga.png' },
+    { produto: 'Alface Crespa', categoria: 'Verdura', preco: '2,90', codproduto: 8, imagemProduto: '../imagens/Produtos/Verdura/Alface Crespa.png' },
+    { produto: 'Cebolinha', categoria: 'Verdura', preco: '3,50', codproduto: 9, imagemProduto: '../imagens/Produtos/Verdura/Cebolinha.png' },
+    { produto: 'Couve', categoria: 'Verdura', preco: '2,50', codproduto: 10, imagemProduto: '../imagens/Produtos/Verdura/Couve.png' },
+    { produto: 'Rabanete', categoria: 'Verdura', preco: '7,70', codproduto: 11, imagemProduto: '../imagens/Produtos/Verdura/Rabanete.png' },
+    { produto: 'Salsa', categoria: 'Verdura', preco: '3,50', codproduto: 12, imagemProduto: '../imagens/Produtos/Verdura/Salsa.png' },
     // Legume
-    { produto: 'Cebola Roxa', categoria: 'Legume', preco: 3.7, codproduto: 13, imagemProduto: '../imagens/Produtos/Legume/Cebola Roxa.png' },
-    { produto: 'Cenoura', categoria: 'Legume', preco: 1.5, codproduto: 14, imagemProduto: '../imagens/Produtos/Legume/Cenoura.png' },
-    { produto: 'Mandioquinha', categoria: 'Legume', preco: 14, codproduto: 15, imagemProduto: '../imagens/Produtos/Legume/Mandioquinha.png' },
-    { produto: 'Milho Verde', categoria: 'Legume', preco: 7, codproduto: 16, imagemProduto: '../imagens/Produtos/Legume/Milho Verde.png' },
-    { produto: 'Pimentão Verde', categoria: 'Legume', preco: 3.9, codproduto: 17, imagemProduto: '../imagens/Produtos/Legume/Pimentão Verde.png' },
-    { produto: 'Tomate', categoria: 'Legume', preco: '6.9', codproduto: 18, imagemProduto: '../imagens/Produtos/Legume/Tomate.png' }
+    { produto: 'Cebola Roxa', categoria: 'Legume', preco: '3,70', codproduto: 13, imagemProduto: '../imagens/Produtos/Legume/Cebola Roxa.png' },
+    { produto: 'Cenoura', categoria: 'Legume', preco: '1,50', codproduto: 14, imagemProduto: '../imagens/Produtos/Legume/Cenoura.png' },
+    { produto: 'Mandioquinha', categoria: 'Legume', preco: '14,00', codproduto: 15, imagemProduto: '../imagens/Produtos/Legume/Mandioquinha.png' },
+    { produto: 'Milho Verde', categoria: 'Legume', preco: '7,00', codproduto: 16, imagemProduto: '../imagens/Produtos/Legume/Milho Verde.png' },
+    { produto: 'Pimentão Verde', categoria: 'Legume', preco: '3,90', codproduto: 17, imagemProduto: '../imagens/Produtos/Legume/Pimentão Verde.png' },
+    { produto: 'Tomate', categoria: 'Legume', preco: '6,90', codproduto: 18, imagemProduto: '../imagens/Produtos/Legume/Tomate.png' }
 ]
 
 
@@ -33,20 +33,20 @@ const listaFrutas = [
 ]
 
 const listaLegumes = [
-    { produto: 'Cebola Roxa', categoria: 'Legume', preco: 3.7, codproduto: 13, imagemProduto: '../imagens/Produtos/Legume/Cebola Roxa.png' },
-    { produto: 'Cenoura', categoria: 'Legume', preco: 1.5, codproduto: 14, imagemProduto: '../imagens/Produtos/Legume/Cenoura.png' },
-    { produto: 'Mandioquinha', categoria: 'Legume', preco: 14, codproduto: 15, imagemProduto: '../imagens/Produtos/Legume/Mandioquinha.png' },
-    { produto: 'Milho Verde', categoria: 'Legume', preco: 7, codproduto: 16, imagemProduto: '../imagens/Produtos/Legume/Milho Verde.png' },
-    { produto: 'Pimentão Verde', categoria: 'Legume', preco: 3.9, codproduto: 17, imagemProduto: '../imagens/Produtos/Legume/Pimentão Verde.png' },
-    { produto: 'Tomate', categoria: 'Legume', preco: '6.9', codproduto: 18, imagemProduto: '../imagens/Produtos/Legume/Tomate.png' }
+    { produto: 'Cebola Roxa', categoria: 'Legume', preco: '3,70', codproduto: 13, imagemProduto: '../imagens/Produtos/Legume/Cebola Roxa.png' },
+    { produto: 'Cenoura', categoria: 'Legume', preco: '1,50', codproduto: 14, imagemProduto: '../imagens/Produtos/Legume/Cenoura.png' },
+    { produto: 'Mandioquinha', categoria: 'Legume', preco: '14,00', codproduto: 15, imagemProduto: '../imagens/Produtos/Legume/Mandioquinha.png' },
+    { produto: 'Milho Verde', categoria: 'Legume', preco: '7,00', codproduto: 16, imagemProduto: '../imagens/Produtos/Legume/Milho Verde.png' },
+    { produto: 'Pimentão Verde', categoria: 'Legume', preco: '3,90', codproduto: 17, imagemProduto: '../imagens/Produtos/Legume/Pimentão Verde.png' },
+    { produto: 'Tomate', categoria: 'Legume', preco: '6,90', codproduto: 18, imagemProduto: '../imagens/Produtos/Legume/Tomate.png' }
 ]
 const listaVerduras = [
-    { produto: 'Moranga', categoria: 'Verdura', preco: 4.25, codproduto: 7, imagemProduto: '../imagens/Produtos/Verdura/Moranga.png' },
-    { produto: 'Alface Crespa', categoria: 'Verdura', preco: 2.9, codproduto: 8, imagemProduto: '../imagens/Produtos/Verdura/Alface Crespa.png' },
-    { produto: 'Cebolinha', categoria: 'Verdura', preco: 3.5, codproduto: 9, imagemProduto: '../imagens/Produtos/Verdura/Cebolinha.png' },
-    { produto: 'Couve', categoria: 'Verdura', preco: 2.5, codproduto: 10, imagemProduto: '../imagens/Produtos/Verdura/Couve.png' },
-    { produto: 'Rabanete', categoria: 'Verdura', preco: 7.7, codproduto: 11, imagemProduto: '../imagens/Produtos/Verdura/Rabanete.png' },
-    { produto: 'Salsa', categoria: 'Verdura', preco: 3.5, codproduto: 12, imagemProduto: '../imagens/Produtos/Verdura/Salsa.png' }
+    { produto: 'Moranga', categoria: 'Verdura', preco: '4.25', codproduto: 7, imagemProduto: '../imagens/Produtos/Verdura/Moranga.png' },
+    { produto: 'Alface Crespa', categoria: 'Verdura', preco: '2,90', codproduto: 8, imagemProduto: '../imagens/Produtos/Verdura/Alface Crespa.png' },
+    { produto: 'Cebolinha', categoria: 'Verdura', preco: '3,50', codproduto: 9, imagemProduto: '../imagens/Produtos/Verdura/Cebolinha.png' },
+    { produto: 'Couve', categoria: 'Verdura', preco: '2,50', codproduto: 10, imagemProduto: '../imagens/Produtos/Verdura/Couve.png' },
+    { produto: 'Rabanete', categoria: 'Verdura', preco: '7,70', codproduto: 11, imagemProduto: '../imagens/Produtos/Verdura/Rabanete.png' },
+    { produto: 'Salsa', categoria: 'Verdura', preco: '3,50', codproduto: 12, imagemProduto: '../imagens/Produtos/Verdura/Salsa.png' }
 ]
 
 const listaDeProdutos = {

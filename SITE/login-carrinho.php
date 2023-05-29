@@ -31,19 +31,6 @@
         
     </header>
 
-  
-
-    <!-- <section class="secao-logo-carrinho">
-        <div class="container">
-        </div>
-    </section> -->
-
-    <div class="banner-oferta">
-        <h2 style="text-align: center; margin-top: 20px;">Carrinho</h2>
-        <p>A gente leva até você vegetais fresquinhos & sem frescura</p>
-        <!-- <img class="logo-oferta" src="https://naturaldaterra.com.br/media/wysiwyg/HIF-0013-23I_-_FEIRA_-_CATEGORIA_-_970x150_-_NT_-_01.png?auto=webp&format=png&quality=85" alt=""> -->
-    </div>
-
       <header class="cabecalho-filtro">
         <nav>
             <a class="filtro-frutas" href="#"><img src="../IMAGENS/frutas-2.png" alt="">Frutas</a>
@@ -52,6 +39,12 @@
             <a class="filtro-todos-os-produtos" href="#">Todos os produtos</a>
         </nav>
     </header>
+
+    <div class="banner-oferta" style="background-image: url('../IMAGENS/slide3.jpg');  margin: 0; height: 30vh; width: 100vw">
+        <h1 style="color: #fff; text-align: center; margin-top: 20px;">Carrinho</h1>
+        <img src="../IMAGENS/banner-promocoes2.png" alt="banner-promocoes2.png">
+        <p style="color: #fff;">A gente leva até você vegetais fresquinhos & sem frescura</p>
+    </div>
 
     <div class="container-modal">
         <div class="legendas">
@@ -70,8 +63,7 @@
                 <table>
                     <thead>
                         <tr>
-                       
-                            <th><img  src="../IMAGENS/carrinho.png" alt=""> Produto</th>
+                            <th><img  src="../IMAGENS/carrinho.png" alt="logo-produto">Produto</th>
                             <th>Preço</th>
                             <th>Quantidade</th>
                             <th>Total</th>
@@ -81,6 +73,7 @@
                     <tbody>
                      
                     </tbody>
+                    
                 </table>
             </section>
             <aside>
@@ -105,14 +98,6 @@
             </aside>
         </div>
     </main>
-
-    <!-- <section class="secao-logo-carrinho">
-        <div class="container">
-        </div>
-    </section> -->
-    <!-- <footer>
-        <h3>Copyright © Orgânicos de casa. Todos os direitos reservados.</h3>
-    </footer> -->
     <script type="module" src="../js/listaProdutos.js"></script>
 </body>
 </html>

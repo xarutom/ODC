@@ -1,3 +1,4 @@
+import listaDeProdutos from "./produtos.js";
 const listaProdutos = [
     //Fruta
     { produto: 'Abacate', categoria: 'Fruta', preco: '6,00', codproduto: 1, imagemProduto: '../imagens/Produtos/Fruta/Abacate.png', quantidade: 0 },
@@ -22,17 +23,13 @@ const listaProdutos = [
     // { produto: 'Tomate', categoria: 'Legume', preco: '6.9', codproduto: 18, imagemProduto: '../imagens/Produtos/Legume/Tomate.png' }
 ]
 
-
-
 const secaoItens = document.querySelector('tbody')
-import { mais, menos, criaModal, fecharModal } from "./modal.js";
-mais
-menos
-criaModal
-fecharModal
+const botaoFrutas = document.querySelector(".filtro-frutas")
+const botaoLegumes = document.querySelector(".filtro-legumes")
+const botaoVerduras = document.querySelector(".filtro-verduras")
+const botaoTodosOsProdutos = document.querySelector(".filtro-todos-os-produtos")
 
-function mostrarProdutos() {
-    secaoItens.classList.add("secao-itens-titulo");
+function mostrarProdutos (){
     secaoItens.innerHTML = "";
     listaProdutos.forEach((item, posicao) => {
         const verifica = item.imagemProduto.length > 0 && item.produto.length > 0 && item.categoria.length > 0 && item.preco.length > 0 ?
@@ -41,7 +38,7 @@ function mostrarProdutos() {
             <tr>
                 <td>
                     <div class="product">
-                        <img class="logo-produto" src="${item.imagemProduto}" alt="" />
+                        <img class="logo-produto" src="${item.imagemProduto}" alt="${item.produto}">
                         <div style="text-align: center" class="info">
                             <div class="name">${item.produto}</div>
                             <div class="category">Categoria</div>
@@ -49,17 +46,13 @@ function mostrarProdutos() {
                         </div>
                     </div>
                 </td>   
-                <td>R$ ${item.preco}</td>
-                <td>
-                    <div class="qty">
-                    <button ${posicao} onclick="menos()" class="a">-</button>
-                        <input  min=0 class="campo-valor" type="number">
-                    <button ${posicao} onclick="mais()" class="b">+</button>
-                    </div>
+                <td class="preco-produto">R$ ${item.preco}</td>
+                <td class="campo">
+                    <input class="campo-produto" type="number" min=0 max=10 value=1 autofocus>
                 </td>
-                <td>R$ 0.0</td>
+                <td> ${item.preco}</td>
                 <td>
-                    <button class="remove"><i class="bx bx-x"></i></button>
+                    <button class="remove remover"><i class="bx bx-x"></i></button>
                 </td>
             </tr>
         `
@@ -68,16 +61,10 @@ function mostrarProdutos() {
         return verifica 
       
     })
+
 }
 
 mostrarProdutos()
-
-import listaDeProdutos from "./produtos.js";
-const botaoFrutas = document.querySelector(".filtro-frutas")
-const botaoLegumes = document.querySelector(".filtro-legumes")
-const botaoVerduras = document.querySelector(".filtro-verduras")
-const botaoTodosOsProdutos = document.querySelector(".filtro-todos-os-produtos")
-
 
 botaoFrutas.addEventListener('click', produtoFrutas)
 botaoLegumes.addEventListener('click', produtoLegumes)
@@ -101,15 +88,11 @@ function produtoFrutas() {
                         </div>
                     </div>
                 </td>   
-                <td>R$ ${listaDeProdutos.fruta[i].preco}</td>
+                <td class="preco-produto">R$ ${listaDeProdutos.fruta[i].preco}</td>
                 <td>
-                    <div class="qty">
-                    <button ${i} onclick="menos()" class="a">-</button>
-                        <input  min=0 class="campo-valor" type="number">
-                    <button ${i} onclick="mais()" class="b">+</button>
-                    </div>
+                <input class="campo-produto" type="number" min=0 max=10 value=1 autofocus>
                 </td>
-                <td>R$ 0.0</td>
+                <td> ${listaDeProdutos.fruta[i].preco}</td>
                 <td>
                     <button class="remove"><i class="bx bx-x"></i></button>
                 </td>
@@ -135,15 +118,11 @@ function produtoLegumes() {
                         </div>
                     </div>
                 </td>   
-                <td>R$ ${listaDeProdutos.legume[i].preco}</td>
+                <td class="preco-produto">R$ ${listaDeProdutos.legume[i].preco}</td>
                 <td>
-                    <div class="qty">
-                    <button ${i} onclick="menos()" class="a">-</button>
-                        <input  min=0 class="campo-valor" type="number">
-                    <button ${i} onclick="mais()" class="b">+</button>
-                    </div>
+                 <input class="campo-produto" type="number" min=0 max=10 value=1 autofocus>
                 </td>
-                <td>R$ 0.0</td>
+                <td> ${listaDeProdutos.legume[i].preco}</td>
                 <td>
                     <button class="remove"><i class="bx bx-x"></i></button>
                 </td>
@@ -169,15 +148,11 @@ function produtoVerdura() {
                         </div>
                     </div>
                 </td>   
-                <td>R$ ${listaDeProdutos.verdura[i].preco}</td>
+                <td class="preco-produto">R$ ${listaDeProdutos.verdura[i].preco}</td>
                 <td>
-                    <div class="qty">
-                    <button ${i} onclick="menos()" class="a">-</button>
-                        <input  min=0 class="campo-valor" type="number">
-                    <button ${i} onclick="mais()" class="b">+</button>
-                    </div>
+                    <input class="campo-produto" type="number" min=0 max=10 value=1 autofocus>
                 </td>
-                <td>R$ 0.0</td>
+                <td> ${listaDeProdutos.verdura[i].preco}</td>
                 <td>
                     <button class="remove"><i class="bx bx-x"></i></button>
                 </td>
@@ -203,15 +178,11 @@ function todosOsProdutos() {
                         </div>
                     </div>
                 </td>   
-                <td>R$ ${listaDeProdutos.produto[i].preco}</td>
+                <td class="preco-produto">R$ ${listaDeProdutos.produto[i].preco}</td>
                 <td>
-                    <div class="qty">
-                    <button ${i} onclick="menos()" class="a">-</button>
-                        <input  min=0 class="campo-valor" type="number">
-                    <button ${i} onclick="mais()" class="b">+</button>
-                    </div>
+                    <input class="campo-produto" type="number" min=0 max=10 value=1 autofocus>
                 </td>
-                <td>R$ 0.0</td>
+                <td> ${listaDeProdutos.produto[i].preco}</td>
                 <td>
                     <button class="remove"><i class="bx bx-x"></i></button>
                 </td>
