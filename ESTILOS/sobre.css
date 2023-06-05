@@ -1,0 +1,75 @@
+.presentation{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.right{
+    margin-left: 20%;
+    margin-right: 2vh;
+    margin-bottom: 2vw;
+}
+h2.right{
+    text-align: left;
+    margin-left: 45%;
+}
+
+.left{
+    margin-right: 5%;
+    margin-left: 2vh;
+    margin-bottom: 2vw;
+}
+
+h2.left{
+    text-align: left;
+}
+
+.img-eqp{
+    width: 40vw;
+    height: 40vh;
+    border-radius: 4ch;
+    margin-left: 55%;
+}
+
+a{
+    color: darkturquoise;
+}
+
+p.final{
+    margin-top: 5vw;
+    text-align: center;
+}
+
+div.imgtext-left{
+    display: flex;
+}
+
+div.imgtext-right{
+    display: flex;
+}
+
+img.imgleft{
+    width: 300px;
+    height: 200px;
+    margin-right: 40px;
+    margin-bottom: 5vw;
+    margin-top: -35px;
+    border-radius: 2ch;
+}
+
+img.imgright{
+    width: 200px;
+    height: 200px;
+    margin-left: 15vh;
+    margin-bottom: 5vw;
+    margin-top: -70px;
+    border-radius: 2ch;
+}
