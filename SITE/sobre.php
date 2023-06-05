@@ -8,6 +8,7 @@
     <link rel="icon" type="image/x-icon" href="..\imagens\conteudo\faviconODCt.ico">
     <link rel="stylesheet" href="../ESTILOS/base.css">
     <link rel="stylesheet" href="../ESTILOS/conta.css">
+    <link rel="stylesheet" href="../ESTILOS/sobre.css">
     </head>
 <body>
     <header class="header">
@@ -29,46 +30,45 @@
         <br><br><br>
 <body>
     
-    <ul>
-        <li><h3>&nbsp;&nbsp;&nbsp;&nbsp;Nossa História</h3></li>
+<section class="presentation">
+    <h1>Bem-vindo(a) à Orgânicos de Casa.</h1>
+        <p>
+            Somos uma equipe dedicada e apaixonados que se esforça para entregar e poder oferecer o melhor do que temos a oferecer. Fundada em Abril de 2022, por universitários da Fmu - Faculdade Metropolitanas Unidas, a ODC surge diante de debates em sala para montagem de um projeto inovador com intuíto de ajudar aqueles que não estão em condição de ingressar no mercado Orgânicos, facilitando a Agricultura familiar e deixando sua vida mais saudável.
+        </p>
+        <br>
         
+        <h2 class="left">EQUIPE</h2>
+        <div class="imgtext-left">
+
+            <p class="left">
+                Nossa equipe é composta por jovens que trabalham desde a estrutura de nossas tecnologias até nossas decisões. Nosso principal desejo é conseguir chegar com você a um lugar nunca visto antes, todos podemos sonhar e crescer juntos. 
+            </p>
+            <img class="imgleft" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.gAlnOjS2Rcsc_Af3GgPGiAHaFj%26pid%3DApi&f=1&ipt=ade6d2b645b4c3285a18ed26e12edb62b2ad7faa256b5d4d05dbe590bb6b980c&ipo=images" alt="">
+        </div>
+            
+            <h2 class="right">O QUE IRÁ ENCONTRAR AQUI?</h2>
+            <div class="imgtext-right">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwebstockreview.net%2Fimages%2Favocado-clipart-happy-6.png&f=1&nofb=1&ipt=c402cf0a69502d650692a2064344432692bbf13aadd35cfef42e6bb26c533d75&ipo=images" alt="" class="imgright">
+                <p class="right">
+                    Neste aconchegante lugarzinho você terá inúmeras opções comidas orgânicas longe de alimentos transgênicos que podem atacar diretamente sua saúde de forma negativa, passamos por uma rígida avaliação de higiêne, processos e colheita de suas compras, assegurando a melhor qualidade para nossos consumidores.
+                </p>
+            </div>
+
+                <h2 class="left">PARA AGRICULTORES</h2>
+                <div class="imgtext-left">
+                    <p class="left">
+                        Ei perai, você é um agricultor familiar? Foca aqui então que temos a coisa certa pra você.
+                        Sabemos da dificuldade que muitos passam para se sustentar neste meio de mercado, portanto temos uma oferta para você! Se cadastrando e passando por todas nossas avaliações de qualidade você pode se tornar um parceiro e vender aqui em nosso site, fazendo seus anúncios e vendendo em nossa plataforma. Ficou interessado? Então faz o seguinte, clica nesse link aqui 
+                        |<strong><a href="#">seja fornecedor</a></strong>|
+                    </p>
+                    <img class="imgleft" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.UabToyfzP3zu8AEVmCUVBAHaD7%26pid%3DApi&f=1&ipt=77191d4aee6b8d60fd49b15ba7344074a832f770f0c67abb7b4453dba66e5597&ipo=images" alt="">
+                </div>
+                    
+                <p class="final">Agradecemos por visitar o nosso site e esperamos que você encontre o que procura aqui, caso tenha gostado e achado nossa ideia interssante compartilhe com outras pessoas para que possamos alcançar e ajudar o máximo de pessoas. Fique a vontade para navegar e explorar nosso conteúdo, caso tenha alguma dúvida estamos sempre abertos para perguntas, então entre em contato agora mesmo e não perca mais nenhuma promoção.</p>
+                        
+</section>
         
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;Olá,<br><br>  
-        &nbsp;&nbsp;&nbsp;&nbsp;Prazer em tê-lo aqui conosco, somos a empresa ODC - Orgânicos de Casa e gostaríamos de contar um pouco sobre nossa história, 
-        para que você tenha confiança em 
-        &nbsp;&nbsp;&nbsp;&nbsp;nossos produtos e conheça o seu novo ambiente de compras aí mesmo da sua casa ou onde estiver. Bora embarcar nessa?
-        <br><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;Fundada no mês de abril, por alunos da FMU - Faculdade Metropolitanas Unidas do curso de Análise e Desenvolvimento de Sistemas, a Orgânicos de Casa surgiu através 
-        &nbsp;&nbsp;&nbsp;&nbsp;de um debate em sala de aula para montagem de um projeto, em nosso grupo, manifestou a ideia de criar a empresa, onde desenvolvemos esse website com foco na 
-        &nbsp;&nbsp;&nbsp;&nbsp;necessidade do acesso de compra das pessoas por meios digitais/online, e a árdua procura dos consumidores em encontrar por seus alimentos orgânicos.
-        <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;A ODC é uma plataforma totalmente online e bem fácil de usar, basta criar um login para realizar suas compras, assim como uma feira no dia-a-dia que você pega seu 
-        &nbsp;&nbsp;&nbsp;&nbsp;carrinho e saí as compras, aqui a diferença é a sua mercadoria que chega até você. 
-        <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;Nosso site ainda está em desenvolvimento e em breve teremos mais novidades para melhorar ainda mais sua experiência.
-        <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;Fiquem atentos as novidades e ofertas especiais.
-        <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;Um grande e forte abraço de toda a equipe ODC e,
-        <br><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;Boas Compras.</p>
-
-
-        <br><br><br><br>
-        <li><h3>&nbsp;&nbsp;&nbsp;&nbsp;Contatos:</h3></li>
-    </ul>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<p>
-</p>
-<br>
+    
 
 
 <footer>
