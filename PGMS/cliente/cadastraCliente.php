@@ -98,7 +98,7 @@
 
                     <div class="col-12 campo-botoes link-botao">
                         <button type="submit" class="botao-cadastrar">cadastrar</button>
-                        <button type="submit" class="botao-sair"><a class="link-login" href="login.php">Sair</a></button>
+                        <a class="link-login botao-sair" href="login.php">Sair</a>
                     </div>
                 </form>
             </div>

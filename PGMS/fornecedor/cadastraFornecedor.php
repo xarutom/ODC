@@ -34,7 +34,7 @@
         <div class="container">
             <!-- <h1>DADOS PESSOA JURÍDICA</h1> -->
             <div class="content">
-                <form method="post" action="incluirFornecedor.php" class="row g-3 form">
+                <form method="post" action="incluirFornecedor.php" class="row g-3 form" id="form">
                 <h3>Detalhes da empresa</h3>
                     <div class="col-md-6">
                         <label for="cnpj" class="legenda-campo">Cnpj</label>

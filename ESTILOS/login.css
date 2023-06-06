@@ -10,6 +10,15 @@
     margin: 0 auto;
 }
 
+.link-login {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu {
+    color: #fff;
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -40,6 +49,7 @@ body {
 .container {
     margin-bottom: 35px;
 }
+
 /* formatando o cabeçalho dos formulários */
 h1, h2 {
     font-size: 48px;
@@ -48,7 +58,7 @@ h1, h2 {
     font-family: Arial, sans-serif;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 h3, h4 {
