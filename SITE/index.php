@@ -32,7 +32,7 @@ $con = mysqli_query($conexao, $consulta) or die . mysqli_error($conexao);
 
     <section class="banner-inicio">
         <div class="img-banner">
-            <a href="sobre.php"><img class="img-banner" src="iconIndex/bannerProdutor2.png" alt=""></a>
+            <a href="../PGMS/fornecedor/loginFornecedor.php"><img class="img-banner" src="iconIndex/bannerProdutor2.png" alt=""></a>
         </div>
     </section>
 

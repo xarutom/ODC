@@ -8,6 +8,7 @@
     <link rel="icon" type="image/x-icon" href="..\imagens\conteudo\faviconODCt.ico">
     <link rel="stylesheet" href="../ESTILOS/base.css">
     <link rel="stylesheet" href="../ESTILOS/conta.css">
+    <link rel="stylesheet" href="../ESTILOS/sobre.css">
     </head>
 <body>
     <header class="header">
@@ -21,8 +22,6 @@
         </nav>
     </header>
         <nav>
-            <p class="banner">
-            </p>
         </nav>
         <br><br><br>
 <body>
