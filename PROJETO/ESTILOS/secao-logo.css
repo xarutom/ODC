@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 40vh;
+}
+
+h1 {
+    font-size: 55px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    border-bottom: 1px solid #000;
+}
+
+.secao-logo-carrinho {
+    width: 100vw;
+    background-color: #74bf67;
+    padding: 30px;
+}
+
+.logo-carrinho {
+    width: 300px;
+}
+

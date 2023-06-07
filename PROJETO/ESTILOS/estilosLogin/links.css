@@ -1,0 +1,63 @@
+a {
+    text-decoration: none;
+}
+
+/* esconde as ancoras da tela */
+a.links {
+    display: none;
+}
+
+/*marcando os links para mudar de um formulário para outro */
+.link {
+    position: absolute;
+    background: #e1eaeb;
+    color: #7f7c7c;
+    left: 0px;
+    height: 50px;
+    width: 438px;
+    /* padding: 17px 30px 20px 30px; */
+    font-size: 16px;
+    /* text-align: right; */
+    border-top: 1px solid #dbe5e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.link a {
+    font-weight: bold;
+    background: #f7f8f1;
+    padding: 6px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    border: 1px solid #cbd518;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.link a:hover {
+    color: #b32e2e;
+    background: #f7f7f7;
+    border: 1px solid #b32e2e;
+}
+
+.senha {
+    font-size: 14px;
+    /* text-align: le; */
+}
+
+.campo-links {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+
+}
