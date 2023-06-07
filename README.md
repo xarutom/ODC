@@ -1,2 +1,0 @@
-# ODC
-Projeto em desenvolvimento
