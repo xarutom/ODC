@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Vídeo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h3 class="center"> ORGÂNICOS DE CASA</h3>
+        </div>
+      </div>
+
+      <div class="video">
+        <button class="open"><a href="scr/video.html">Abrir Player</a></button>
+      </div>
+
+      <footer>
+        <center>
+            <img class="icon" src="../PROJETO/IMAGENS/Conteudo/IconeODCt.png" alt="">
+        </center>
+      </footer>
+
+      <style>
+            body{
+                background-color: rgb(209, 235, 226);
+            }
+            .container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .center
+            {
+            text-transform: uppercase;
+            background-image: linear-gradient(
+                -225deg,
+                #84e49c 0%,
+                #9dec9d 29%,
+                #32ee96 67%,
+                #97f3c5 100%
+            );
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            color: #fff;
+            background-clip: text;
+            text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 2s linear infinite;
+            display: inline-block;
+            font-size: 100px;
+            text-align: center;
+            }
+
+            @keyframes textclip {
+            to {
+                background-position: 200% center;
+            }
+            }
+
+            .video{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            button{
+                padding: 1vw 5vh 1vw 5vh;
+                font-family: Bradley Hand, cursive;
+                font-weight: 700;
+                font-size: 20px;
+                background-color: #fff;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border: none;
+                border-radius: 0.5ch;
+                cursor: pointer;
+                transition: 0.5s;
+            }
+
+            a{
+                color: black;
+                transition: 0.4s;
+            }
+
+            a:link{
+                text-decoration: none;
+            }
+
+            a:hover{
+                transition: 0.3s;
+                color: #32ee96;
+            }
+
+
+            .icon{
+                width: 5vw;
+                margin-top: 15vw;
+            }
+
+      </style>
+</body>
+</html>
