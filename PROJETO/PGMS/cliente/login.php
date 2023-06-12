@@ -37,7 +37,6 @@ include("validaDados.php");
         <p class="banner"></p>
     </nav>
 
-    <h1 class="h1">Olá visitante!</h1>
     <?php
     if (isset($erro))
         foreach ($erro as $msg) {
